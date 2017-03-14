@@ -68,8 +68,16 @@
 <<<<<<< HEAD
 /******/ 	var hotCurrentHash = "43454718aeb6dc96e854"; // eslint-disable-line no-unused-vars
 =======
+<<<<<<< HEAD
+/******/ 	var hotCurrentHash = "43454718aeb6dc96e854"; // eslint-disable-line no-unused-vars
+=======
 /******/ 	var hotCurrentHash = "006fbc3f117f9779e1b1"; // eslint-disable-line no-unused-vars
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -602,12 +610,24 @@
 
 	var _RegisterPage = __webpack_require__(320);
 =======
+<<<<<<< HEAD
+	var _LoginPage = __webpack_require__(313);
+
+	var _LoginPage2 = _interopRequireDefault(_LoginPage);
+
+	var _RegisterPage = __webpack_require__(320);
+=======
 	var _LoginPage = __webpack_require__(311);
 
 	var _LoginPage2 = _interopRequireDefault(_LoginPage);
 
 	var _RegisterPage = __webpack_require__(318);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _RegisterPage2 = _interopRequireDefault(_RegisterPage);
 
@@ -27483,8 +27503,18 @@
 /* 312 */,
 /* 313 */
 =======
+<<<<<<< HEAD
+/* 311 */,
+/* 312 */,
+/* 313 */
+=======
 /* 311 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27497,9 +27527,16 @@
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 	__webpack_require__(312);
 
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	__webpack_require__(314);
 
 	__webpack_require__(316);
@@ -27508,7 +27545,16 @@
 	__webpack_require__(318);
 
 =======
+<<<<<<< HEAD
+	__webpack_require__(318);
+
+=======
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27569,8 +27615,16 @@
 <<<<<<< HEAD
 /* 314 */
 =======
+<<<<<<< HEAD
+/* 314 */
+=======
 /* 312 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -27579,8 +27633,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(315);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(315);
+=======
 	var content = __webpack_require__(313);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -27593,9 +27655,18 @@
 			module.hot.accept(315, function() {
 				var newContent = __webpack_require__(315);
 =======
+<<<<<<< HEAD
+			module.hot.accept(315, function() {
+				var newContent = __webpack_require__(315);
+=======
 			module.hot.accept(313, function() {
 				var newContent = __webpack_require__(313);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -27608,8 +27679,16 @@
 <<<<<<< HEAD
 /* 315 */
 =======
+<<<<<<< HEAD
+/* 315 */
+=======
 /* 313 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -27626,8 +27705,16 @@
 <<<<<<< HEAD
 /* 316 */
 =======
+<<<<<<< HEAD
+/* 316 */
+=======
 /* 314 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -27636,8 +27723,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(317);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(317);
+=======
 	var content = __webpack_require__(315);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -27650,9 +27745,18 @@
 			module.hot.accept(317, function() {
 				var newContent = __webpack_require__(317);
 =======
+<<<<<<< HEAD
+			module.hot.accept(317, function() {
+				var newContent = __webpack_require__(317);
+=======
 			module.hot.accept(315, function() {
 				var newContent = __webpack_require__(315);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -27665,8 +27769,16 @@
 <<<<<<< HEAD
 /* 317 */
 =======
+<<<<<<< HEAD
+/* 317 */
+=======
 /* 315 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -27683,8 +27795,16 @@
 <<<<<<< HEAD
 /* 318 */
 =======
+<<<<<<< HEAD
+/* 318 */
+=======
 /* 316 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -27693,8 +27813,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(319);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(319);
+=======
 	var content = __webpack_require__(317);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -27707,9 +27835,18 @@
 			module.hot.accept(319, function() {
 				var newContent = __webpack_require__(319);
 =======
+<<<<<<< HEAD
+			module.hot.accept(319, function() {
+				var newContent = __webpack_require__(319);
+=======
 			module.hot.accept(317, function() {
 				var newContent = __webpack_require__(317);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -27722,8 +27859,16 @@
 <<<<<<< HEAD
 /* 319 */
 =======
+<<<<<<< HEAD
+/* 319 */
+=======
 /* 317 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -27740,8 +27885,16 @@
 <<<<<<< HEAD
 /* 320 */
 =======
+<<<<<<< HEAD
+/* 320 */
+=======
 /* 318 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27754,9 +27907,16 @@
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 	__webpack_require__(312);
 
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	__webpack_require__(314);
 
 	__webpack_require__(316);
@@ -27765,7 +27925,16 @@
 	__webpack_require__(318);
 
 =======
+<<<<<<< HEAD
+	__webpack_require__(318);
+
+=======
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }

@@ -68,8 +68,16 @@
 <<<<<<< HEAD
 /******/ 	var hotCurrentHash = "43454718aeb6dc96e854"; // eslint-disable-line no-unused-vars
 =======
+<<<<<<< HEAD
+/******/ 	var hotCurrentHash = "43454718aeb6dc96e854"; // eslint-disable-line no-unused-vars
+=======
 /******/ 	var hotCurrentHash = "006fbc3f117f9779e1b1"; // eslint-disable-line no-unused-vars
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -606,13 +614,24 @@
 <<<<<<< HEAD
 	var _Community = __webpack_require__(249);
 =======
+<<<<<<< HEAD
+	var _Community = __webpack_require__(249);
+=======
 	var _Community = __webpack_require__(247);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _Community2 = _interopRequireDefault(_Community);
 
 	var _reactRouter = __webpack_require__(180);
 
+<<<<<<< HEAD
+	var _InnovationData = __webpack_require__(252);
+=======
 <<<<<<< HEAD
 	var _InnovationData = __webpack_require__(252);
 
@@ -629,19 +648,32 @@
 	var _TelentShow = __webpack_require__(294);
 =======
 	var _InnovationData = __webpack_require__(250);
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _InnovationData2 = _interopRequireDefault(_InnovationData);
 
-	var _NewsCenter = __webpack_require__(260);
+	var _NewsCenter = __webpack_require__(262);
 
 	var _NewsCenter2 = _interopRequireDefault(_NewsCenter);
 
-	var _OnlineClass = __webpack_require__(270);
+	var _OnlineClass = __webpack_require__(272);
 
 	var _OnlineClass2 = _interopRequireDefault(_OnlineClass);
 
+<<<<<<< HEAD
+	var _TelentShow = __webpack_require__(294);
+=======
 	var _TelentShow = __webpack_require__(292);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _TelentShow2 = _interopRequireDefault(_TelentShow);
 
@@ -28392,8 +28424,16 @@
 <<<<<<< HEAD
 	__webpack_require__(247);
 =======
+<<<<<<< HEAD
+	__webpack_require__(247);
+=======
 	__webpack_require__(339);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28433,6 +28473,13 @@
 /***/ function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
@@ -28473,8 +28520,15 @@
 /* 249 */
 /***/ function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
@@ -28490,8 +28544,16 @@
 <<<<<<< HEAD
 	__webpack_require__(250);
 =======
+<<<<<<< HEAD
+	__webpack_require__(250);
+=======
 	__webpack_require__(248);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28530,8 +28592,16 @@
 <<<<<<< HEAD
 /* 250 */
 =======
+<<<<<<< HEAD
+/* 250 */
+=======
 /* 248 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -28540,8 +28610,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(251);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(251);
+=======
 	var content = __webpack_require__(249);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -28554,9 +28632,18 @@
 			module.hot.accept(251, function() {
 				var newContent = __webpack_require__(251);
 =======
+<<<<<<< HEAD
+			module.hot.accept(251, function() {
+				var newContent = __webpack_require__(251);
+=======
 			module.hot.accept(249, function() {
 				var newContent = __webpack_require__(249);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -28569,8 +28656,16 @@
 <<<<<<< HEAD
 /* 251 */
 =======
+<<<<<<< HEAD
+/* 251 */
+=======
 /* 249 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -28587,8 +28682,16 @@
 <<<<<<< HEAD
 /* 252 */
 =======
+<<<<<<< HEAD
+/* 252 */
+=======
 /* 250 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28605,6 +28708,9 @@
 
 <<<<<<< HEAD
 	var _Competition = __webpack_require__(253);
+=======
+<<<<<<< HEAD
+	var _Competition = __webpack_require__(253);
 
 	var _Competition2 = _interopRequireDefault(_Competition);
 
@@ -28615,15 +28721,28 @@
 	var _Library = __webpack_require__(259);
 =======
 	var _Competition = __webpack_require__(251);
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _Competition2 = _interopRequireDefault(_Competition);
 
-	var _Incubation = __webpack_require__(254);
+	var _Incubation = __webpack_require__(256);
 
 	var _Incubation2 = _interopRequireDefault(_Incubation);
 
+<<<<<<< HEAD
+	var _Library = __webpack_require__(259);
+=======
 	var _Library = __webpack_require__(257);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _Library2 = _interopRequireDefault(_Library);
 
@@ -28666,8 +28785,16 @@
 <<<<<<< HEAD
 /* 253 */
 =======
+<<<<<<< HEAD
+/* 253 */
+=======
 /* 251 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28685,8 +28812,16 @@
 <<<<<<< HEAD
 	__webpack_require__(254);
 =======
+<<<<<<< HEAD
+	__webpack_require__(254);
+=======
 	__webpack_require__(252);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28725,8 +28860,16 @@
 <<<<<<< HEAD
 /* 254 */
 =======
+<<<<<<< HEAD
+/* 254 */
+=======
 /* 252 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -28735,8 +28878,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(255);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(255);
+=======
 	var content = __webpack_require__(253);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -28749,9 +28900,18 @@
 			module.hot.accept(255, function() {
 				var newContent = __webpack_require__(255);
 =======
+<<<<<<< HEAD
+			module.hot.accept(255, function() {
+				var newContent = __webpack_require__(255);
+=======
 			module.hot.accept(253, function() {
 				var newContent = __webpack_require__(253);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -28764,8 +28924,16 @@
 <<<<<<< HEAD
 /* 255 */
 =======
+<<<<<<< HEAD
+/* 255 */
+=======
 /* 253 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -28782,8 +28950,16 @@
 <<<<<<< HEAD
 /* 256 */
 =======
+<<<<<<< HEAD
+/* 256 */
+=======
 /* 254 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28801,8 +28977,16 @@
 <<<<<<< HEAD
 	__webpack_require__(257);
 =======
+<<<<<<< HEAD
+	__webpack_require__(257);
+=======
 	__webpack_require__(255);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28841,8 +29025,16 @@
 <<<<<<< HEAD
 /* 257 */
 =======
+<<<<<<< HEAD
+/* 257 */
+=======
 /* 255 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -28851,8 +29043,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(258);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(258);
+=======
 	var content = __webpack_require__(256);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -28865,9 +29065,18 @@
 			module.hot.accept(258, function() {
 				var newContent = __webpack_require__(258);
 =======
+<<<<<<< HEAD
+			module.hot.accept(258, function() {
+				var newContent = __webpack_require__(258);
+=======
 			module.hot.accept(256, function() {
 				var newContent = __webpack_require__(256);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -28880,8 +29089,16 @@
 <<<<<<< HEAD
 /* 258 */
 =======
+<<<<<<< HEAD
+/* 258 */
+=======
 /* 256 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -28898,8 +29115,16 @@
 <<<<<<< HEAD
 /* 259 */
 =======
+<<<<<<< HEAD
+/* 259 */
+=======
 /* 257 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -28917,8 +29142,16 @@
 <<<<<<< HEAD
 	__webpack_require__(260);
 =======
+<<<<<<< HEAD
+	__webpack_require__(260);
+=======
 	__webpack_require__(258);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28957,8 +29190,16 @@
 <<<<<<< HEAD
 /* 260 */
 =======
+<<<<<<< HEAD
+/* 260 */
+=======
 /* 258 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -28967,8 +29208,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(261);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(261);
+=======
 	var content = __webpack_require__(259);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -28981,9 +29230,18 @@
 			module.hot.accept(261, function() {
 				var newContent = __webpack_require__(261);
 =======
+<<<<<<< HEAD
+			module.hot.accept(261, function() {
+				var newContent = __webpack_require__(261);
+=======
 			module.hot.accept(259, function() {
 				var newContent = __webpack_require__(259);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -28996,8 +29254,16 @@
 <<<<<<< HEAD
 /* 261 */
 =======
+<<<<<<< HEAD
+/* 261 */
+=======
 /* 259 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -29014,8 +29280,16 @@
 <<<<<<< HEAD
 /* 262 */
 =======
+<<<<<<< HEAD
+/* 262 */
+=======
 /* 260 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29032,6 +29306,9 @@
 
 <<<<<<< HEAD
 	var _NEAMC = __webpack_require__(263);
+=======
+<<<<<<< HEAD
+	var _NEAMC = __webpack_require__(263);
 
 	var _NEAMC2 = _interopRequireDefault(_NEAMC);
 
@@ -29042,15 +29319,28 @@
 	var _XiyouHotSpot = __webpack_require__(269);
 =======
 	var _NEAMC = __webpack_require__(261);
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _NEAMC2 = _interopRequireDefault(_NEAMC);
 
-	var _Notice = __webpack_require__(264);
+	var _Notice = __webpack_require__(266);
 
 	var _Notice2 = _interopRequireDefault(_Notice);
 
+<<<<<<< HEAD
+	var _XiyouHotSpot = __webpack_require__(269);
+=======
 	var _XiyouHotSpot = __webpack_require__(267);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _XiyouHotSpot2 = _interopRequireDefault(_XiyouHotSpot);
 
@@ -29093,8 +29383,16 @@
 <<<<<<< HEAD
 /* 263 */
 =======
+<<<<<<< HEAD
+/* 263 */
+=======
 /* 261 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29112,8 +29410,16 @@
 <<<<<<< HEAD
 	__webpack_require__(264);
 =======
+<<<<<<< HEAD
+	__webpack_require__(264);
+=======
 	__webpack_require__(262);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29152,8 +29458,16 @@
 <<<<<<< HEAD
 /* 264 */
 =======
+<<<<<<< HEAD
+/* 264 */
+=======
 /* 262 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -29162,8 +29476,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(265);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(265);
+=======
 	var content = __webpack_require__(263);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -29176,9 +29498,18 @@
 			module.hot.accept(265, function() {
 				var newContent = __webpack_require__(265);
 =======
+<<<<<<< HEAD
+			module.hot.accept(265, function() {
+				var newContent = __webpack_require__(265);
+=======
 			module.hot.accept(263, function() {
 				var newContent = __webpack_require__(263);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -29191,8 +29522,16 @@
 <<<<<<< HEAD
 /* 265 */
 =======
+<<<<<<< HEAD
+/* 265 */
+=======
 /* 263 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -29209,8 +29548,16 @@
 <<<<<<< HEAD
 /* 266 */
 =======
+<<<<<<< HEAD
+/* 266 */
+=======
 /* 264 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29228,8 +29575,16 @@
 <<<<<<< HEAD
 	__webpack_require__(267);
 =======
+<<<<<<< HEAD
+	__webpack_require__(267);
+=======
 	__webpack_require__(265);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29268,8 +29623,16 @@
 <<<<<<< HEAD
 /* 267 */
 =======
+<<<<<<< HEAD
+/* 267 */
+=======
 /* 265 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -29278,8 +29641,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(268);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(268);
+=======
 	var content = __webpack_require__(266);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -29292,9 +29663,18 @@
 			module.hot.accept(268, function() {
 				var newContent = __webpack_require__(268);
 =======
+<<<<<<< HEAD
+			module.hot.accept(268, function() {
+				var newContent = __webpack_require__(268);
+=======
 			module.hot.accept(266, function() {
 				var newContent = __webpack_require__(266);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -29307,8 +29687,16 @@
 <<<<<<< HEAD
 /* 268 */
 =======
+<<<<<<< HEAD
+/* 268 */
+=======
 /* 266 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -29325,8 +29713,16 @@
 <<<<<<< HEAD
 /* 269 */
 =======
+<<<<<<< HEAD
+/* 269 */
+=======
 /* 267 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29344,8 +29740,16 @@
 <<<<<<< HEAD
 	__webpack_require__(270);
 =======
+<<<<<<< HEAD
+	__webpack_require__(270);
+=======
 	__webpack_require__(268);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29384,8 +29788,16 @@
 <<<<<<< HEAD
 /* 270 */
 =======
+<<<<<<< HEAD
+/* 270 */
+=======
 /* 268 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -29394,8 +29806,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(271);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(271);
+=======
 	var content = __webpack_require__(269);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -29408,9 +29828,18 @@
 			module.hot.accept(271, function() {
 				var newContent = __webpack_require__(271);
 =======
+<<<<<<< HEAD
+			module.hot.accept(271, function() {
+				var newContent = __webpack_require__(271);
+=======
 			module.hot.accept(269, function() {
 				var newContent = __webpack_require__(269);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -29423,8 +29852,16 @@
 <<<<<<< HEAD
 /* 271 */
 =======
+<<<<<<< HEAD
+/* 271 */
+=======
 /* 269 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -29441,8 +29878,16 @@
 <<<<<<< HEAD
 /* 272 */
 =======
+<<<<<<< HEAD
+/* 272 */
+=======
 /* 270 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29457,6 +29902,9 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD
+	var _BaseMooc = __webpack_require__(273);
+=======
 <<<<<<< HEAD
 	var _BaseMooc = __webpack_require__(273);
 
@@ -29485,31 +29933,44 @@
 	var _Spoc = __webpack_require__(291);
 =======
 	var _BaseMooc = __webpack_require__(271);
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _BaseMooc2 = _interopRequireDefault(_BaseMooc);
 
-	var _ERP = __webpack_require__(274);
+	var _ERP = __webpack_require__(276);
 
 	var _ERP2 = _interopRequireDefault(_ERP);
 
-	var _Erya = __webpack_require__(277);
+	var _Erya = __webpack_require__(279);
 
 	var _Erya2 = _interopRequireDefault(_Erya);
 
-	var _Laboratory = __webpack_require__(280);
+	var _Laboratory = __webpack_require__(282);
 
 	var _Laboratory2 = _interopRequireDefault(_Laboratory);
 
-	var _OccupationalPlanning = __webpack_require__(283);
+	var _OccupationalPlanning = __webpack_require__(285);
 
 	var _OccupationalPlanning2 = _interopRequireDefault(_OccupationalPlanning);
 
-	var _SkillsTraining = __webpack_require__(286);
+	var _SkillsTraining = __webpack_require__(288);
 
 	var _SkillsTraining2 = _interopRequireDefault(_SkillsTraining);
 
+<<<<<<< HEAD
+	var _Spoc = __webpack_require__(291);
+=======
 	var _Spoc = __webpack_require__(289);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _Spoc2 = _interopRequireDefault(_Spoc);
 
@@ -29556,8 +30017,16 @@
 <<<<<<< HEAD
 /* 273 */
 =======
+<<<<<<< HEAD
+/* 273 */
+=======
 /* 271 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29575,8 +30044,16 @@
 <<<<<<< HEAD
 	__webpack_require__(274);
 =======
+<<<<<<< HEAD
+	__webpack_require__(274);
+=======
 	__webpack_require__(272);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29615,8 +30092,16 @@
 <<<<<<< HEAD
 /* 274 */
 =======
+<<<<<<< HEAD
+/* 274 */
+=======
 /* 272 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -29625,8 +30110,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(275);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(275);
+=======
 	var content = __webpack_require__(273);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -29639,9 +30132,18 @@
 			module.hot.accept(275, function() {
 				var newContent = __webpack_require__(275);
 =======
+<<<<<<< HEAD
+			module.hot.accept(275, function() {
+				var newContent = __webpack_require__(275);
+=======
 			module.hot.accept(273, function() {
 				var newContent = __webpack_require__(273);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -29654,8 +30156,16 @@
 <<<<<<< HEAD
 /* 275 */
 =======
+<<<<<<< HEAD
+/* 275 */
+=======
 /* 273 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -29672,8 +30182,16 @@
 <<<<<<< HEAD
 /* 276 */
 =======
+<<<<<<< HEAD
+/* 276 */
+=======
 /* 274 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29691,8 +30209,16 @@
 <<<<<<< HEAD
 	__webpack_require__(277);
 =======
+<<<<<<< HEAD
+	__webpack_require__(277);
+=======
 	__webpack_require__(275);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29731,8 +30257,16 @@
 <<<<<<< HEAD
 /* 277 */
 =======
+<<<<<<< HEAD
+/* 277 */
+=======
 /* 275 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -29741,8 +30275,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(278);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(278);
+=======
 	var content = __webpack_require__(276);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -29755,9 +30297,18 @@
 			module.hot.accept(278, function() {
 				var newContent = __webpack_require__(278);
 =======
+<<<<<<< HEAD
+			module.hot.accept(278, function() {
+				var newContent = __webpack_require__(278);
+=======
 			module.hot.accept(276, function() {
 				var newContent = __webpack_require__(276);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -29770,8 +30321,16 @@
 <<<<<<< HEAD
 /* 278 */
 =======
+<<<<<<< HEAD
+/* 278 */
+=======
 /* 276 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -29788,8 +30347,16 @@
 <<<<<<< HEAD
 /* 279 */
 =======
+<<<<<<< HEAD
+/* 279 */
+=======
 /* 277 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29807,8 +30374,16 @@
 <<<<<<< HEAD
 	__webpack_require__(280);
 =======
+<<<<<<< HEAD
+	__webpack_require__(280);
+=======
 	__webpack_require__(278);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29847,8 +30422,16 @@
 <<<<<<< HEAD
 /* 280 */
 =======
+<<<<<<< HEAD
+/* 280 */
+=======
 /* 278 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -29857,8 +30440,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(281);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(281);
+=======
 	var content = __webpack_require__(279);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -29871,9 +30462,18 @@
 			module.hot.accept(281, function() {
 				var newContent = __webpack_require__(281);
 =======
+<<<<<<< HEAD
+			module.hot.accept(281, function() {
+				var newContent = __webpack_require__(281);
+=======
 			module.hot.accept(279, function() {
 				var newContent = __webpack_require__(279);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -29886,8 +30486,16 @@
 <<<<<<< HEAD
 /* 281 */
 =======
+<<<<<<< HEAD
+/* 281 */
+=======
 /* 279 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -29904,8 +30512,16 @@
 <<<<<<< HEAD
 /* 282 */
 =======
+<<<<<<< HEAD
+/* 282 */
+=======
 /* 280 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -29923,8 +30539,16 @@
 <<<<<<< HEAD
 	__webpack_require__(283);
 =======
+<<<<<<< HEAD
+	__webpack_require__(283);
+=======
 	__webpack_require__(281);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29963,8 +30587,16 @@
 <<<<<<< HEAD
 /* 283 */
 =======
+<<<<<<< HEAD
+/* 283 */
+=======
 /* 281 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -29973,8 +30605,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(284);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(284);
+=======
 	var content = __webpack_require__(282);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -29987,9 +30627,18 @@
 			module.hot.accept(284, function() {
 				var newContent = __webpack_require__(284);
 =======
+<<<<<<< HEAD
+			module.hot.accept(284, function() {
+				var newContent = __webpack_require__(284);
+=======
 			module.hot.accept(282, function() {
 				var newContent = __webpack_require__(282);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30002,8 +30651,16 @@
 <<<<<<< HEAD
 /* 284 */
 =======
+<<<<<<< HEAD
+/* 284 */
+=======
 /* 282 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -30020,8 +30677,16 @@
 <<<<<<< HEAD
 /* 285 */
 =======
+<<<<<<< HEAD
+/* 285 */
+=======
 /* 283 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30039,8 +30704,16 @@
 <<<<<<< HEAD
 	__webpack_require__(286);
 =======
+<<<<<<< HEAD
+	__webpack_require__(286);
+=======
 	__webpack_require__(284);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30079,8 +30752,16 @@
 <<<<<<< HEAD
 /* 286 */
 =======
+<<<<<<< HEAD
+/* 286 */
+=======
 /* 284 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -30089,8 +30770,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(287);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(287);
+=======
 	var content = __webpack_require__(285);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -30103,9 +30792,18 @@
 			module.hot.accept(287, function() {
 				var newContent = __webpack_require__(287);
 =======
+<<<<<<< HEAD
+			module.hot.accept(287, function() {
+				var newContent = __webpack_require__(287);
+=======
 			module.hot.accept(285, function() {
 				var newContent = __webpack_require__(285);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30118,8 +30816,16 @@
 <<<<<<< HEAD
 /* 287 */
 =======
+<<<<<<< HEAD
+/* 287 */
+=======
 /* 285 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -30136,8 +30842,16 @@
 <<<<<<< HEAD
 /* 288 */
 =======
+<<<<<<< HEAD
+/* 288 */
+=======
 /* 286 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30155,8 +30869,16 @@
 <<<<<<< HEAD
 	__webpack_require__(289);
 =======
+<<<<<<< HEAD
+	__webpack_require__(289);
+=======
 	__webpack_require__(287);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30195,8 +30917,16 @@
 <<<<<<< HEAD
 /* 289 */
 =======
+<<<<<<< HEAD
+/* 289 */
+=======
 /* 287 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -30205,8 +30935,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(290);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(290);
+=======
 	var content = __webpack_require__(288);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -30219,9 +30957,18 @@
 			module.hot.accept(290, function() {
 				var newContent = __webpack_require__(290);
 =======
+<<<<<<< HEAD
+			module.hot.accept(290, function() {
+				var newContent = __webpack_require__(290);
+=======
 			module.hot.accept(288, function() {
 				var newContent = __webpack_require__(288);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30234,8 +30981,16 @@
 <<<<<<< HEAD
 /* 290 */
 =======
+<<<<<<< HEAD
+/* 290 */
+=======
 /* 288 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -30252,8 +31007,16 @@
 <<<<<<< HEAD
 /* 291 */
 =======
+<<<<<<< HEAD
+/* 291 */
+=======
 /* 289 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30271,8 +31034,16 @@
 <<<<<<< HEAD
 	__webpack_require__(292);
 =======
+<<<<<<< HEAD
+	__webpack_require__(292);
+=======
 	__webpack_require__(290);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30311,8 +31082,16 @@
 <<<<<<< HEAD
 /* 292 */
 =======
+<<<<<<< HEAD
+/* 292 */
+=======
 /* 290 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -30321,8 +31100,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(293);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(293);
+=======
 	var content = __webpack_require__(291);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -30335,9 +31122,18 @@
 			module.hot.accept(293, function() {
 				var newContent = __webpack_require__(293);
 =======
+<<<<<<< HEAD
+			module.hot.accept(293, function() {
+				var newContent = __webpack_require__(293);
+=======
 			module.hot.accept(291, function() {
 				var newContent = __webpack_require__(291);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30350,8 +31146,16 @@
 <<<<<<< HEAD
 /* 293 */
 =======
+<<<<<<< HEAD
+/* 293 */
+=======
 /* 291 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -30368,8 +31172,16 @@
 <<<<<<< HEAD
 /* 294 */
 =======
+<<<<<<< HEAD
+/* 294 */
+=======
 /* 292 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30384,6 +31196,9 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD
+	var _IncubationBase = __webpack_require__(295);
+=======
 <<<<<<< HEAD
 	var _IncubationBase = __webpack_require__(295);
 
@@ -30412,31 +31227,44 @@
 	var _StudentMien = __webpack_require__(311);
 =======
 	var _IncubationBase = __webpack_require__(293);
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _IncubationBase2 = _interopRequireDefault(_IncubationBase);
 
-	var _InnovationCommunities = __webpack_require__(296);
+	var _InnovationCommunities = __webpack_require__(298);
 
 	var _InnovationCommunities2 = _interopRequireDefault(_InnovationCommunities);
 
-	var _InnovationLab = __webpack_require__(299);
+	var _InnovationLab = __webpack_require__(301);
 
 	var _InnovationLab2 = _interopRequireDefault(_InnovationLab);
 
-	var _ItemShow = __webpack_require__(302);
+	var _ItemShow = __webpack_require__(304);
 
 	var _ItemShow2 = _interopRequireDefault(_ItemShow);
 
-	var _PioneerCenter = __webpack_require__(305);
+	var _PioneerCenter = __webpack_require__(307);
 
 	var _PioneerCenter2 = _interopRequireDefault(_PioneerCenter);
 
-	var _StarTeacher = __webpack_require__(308);
+	var _StarTeacher = __webpack_require__(310);
 
 	var _StarTeacher2 = _interopRequireDefault(_StarTeacher);
 
+<<<<<<< HEAD
+	var _StudentMien = __webpack_require__(311);
+=======
 	var _StudentMien = __webpack_require__(309);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	var _StudentMien2 = _interopRequireDefault(_StudentMien);
 
@@ -30483,8 +31311,16 @@
 <<<<<<< HEAD
 /* 295 */
 =======
+<<<<<<< HEAD
+/* 295 */
+=======
 /* 293 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30502,8 +31338,16 @@
 <<<<<<< HEAD
 	__webpack_require__(296);
 =======
+<<<<<<< HEAD
+	__webpack_require__(296);
+=======
 	__webpack_require__(294);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30542,8 +31386,16 @@
 <<<<<<< HEAD
 /* 296 */
 =======
+<<<<<<< HEAD
+/* 296 */
+=======
 /* 294 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -30552,8 +31404,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(297);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(297);
+=======
 	var content = __webpack_require__(295);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -30566,9 +31426,18 @@
 			module.hot.accept(297, function() {
 				var newContent = __webpack_require__(297);
 =======
+<<<<<<< HEAD
+			module.hot.accept(297, function() {
+				var newContent = __webpack_require__(297);
+=======
 			module.hot.accept(295, function() {
 				var newContent = __webpack_require__(295);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30581,8 +31450,16 @@
 <<<<<<< HEAD
 /* 297 */
 =======
+<<<<<<< HEAD
+/* 297 */
+=======
 /* 295 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -30599,8 +31476,16 @@
 <<<<<<< HEAD
 /* 298 */
 =======
+<<<<<<< HEAD
+/* 298 */
+=======
 /* 296 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30618,8 +31503,16 @@
 <<<<<<< HEAD
 	__webpack_require__(299);
 =======
+<<<<<<< HEAD
+	__webpack_require__(299);
+=======
 	__webpack_require__(297);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30658,8 +31551,16 @@
 <<<<<<< HEAD
 /* 299 */
 =======
+<<<<<<< HEAD
+/* 299 */
+=======
 /* 297 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -30668,8 +31569,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(300);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(300);
+=======
 	var content = __webpack_require__(298);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -30682,9 +31591,18 @@
 			module.hot.accept(300, function() {
 				var newContent = __webpack_require__(300);
 =======
+<<<<<<< HEAD
+			module.hot.accept(300, function() {
+				var newContent = __webpack_require__(300);
+=======
 			module.hot.accept(298, function() {
 				var newContent = __webpack_require__(298);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30697,8 +31615,16 @@
 <<<<<<< HEAD
 /* 300 */
 =======
+<<<<<<< HEAD
+/* 300 */
+=======
 /* 298 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -30715,8 +31641,16 @@
 <<<<<<< HEAD
 /* 301 */
 =======
+<<<<<<< HEAD
+/* 301 */
+=======
 /* 299 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30734,8 +31668,16 @@
 <<<<<<< HEAD
 	__webpack_require__(302);
 =======
+<<<<<<< HEAD
+	__webpack_require__(302);
+=======
 	__webpack_require__(300);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30774,8 +31716,16 @@
 <<<<<<< HEAD
 /* 302 */
 =======
+<<<<<<< HEAD
+/* 302 */
+=======
 /* 300 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -30784,8 +31734,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(303);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(303);
+=======
 	var content = __webpack_require__(301);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -30798,9 +31756,18 @@
 			module.hot.accept(303, function() {
 				var newContent = __webpack_require__(303);
 =======
+<<<<<<< HEAD
+			module.hot.accept(303, function() {
+				var newContent = __webpack_require__(303);
+=======
 			module.hot.accept(301, function() {
 				var newContent = __webpack_require__(301);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30813,8 +31780,16 @@
 <<<<<<< HEAD
 /* 303 */
 =======
+<<<<<<< HEAD
+/* 303 */
+=======
 /* 301 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -30831,8 +31806,16 @@
 <<<<<<< HEAD
 /* 304 */
 =======
+<<<<<<< HEAD
+/* 304 */
+=======
 /* 302 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30850,8 +31833,16 @@
 <<<<<<< HEAD
 	__webpack_require__(305);
 =======
+<<<<<<< HEAD
+	__webpack_require__(305);
+=======
 	__webpack_require__(303);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30890,8 +31881,16 @@
 <<<<<<< HEAD
 /* 305 */
 =======
+<<<<<<< HEAD
+/* 305 */
+=======
 /* 303 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -30900,8 +31899,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(306);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(306);
+=======
 	var content = __webpack_require__(304);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -30914,9 +31921,18 @@
 			module.hot.accept(306, function() {
 				var newContent = __webpack_require__(306);
 =======
+<<<<<<< HEAD
+			module.hot.accept(306, function() {
+				var newContent = __webpack_require__(306);
+=======
 			module.hot.accept(304, function() {
 				var newContent = __webpack_require__(304);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -30929,8 +31945,16 @@
 <<<<<<< HEAD
 /* 306 */
 =======
+<<<<<<< HEAD
+/* 306 */
+=======
 /* 304 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -30947,8 +31971,16 @@
 <<<<<<< HEAD
 /* 307 */
 =======
+<<<<<<< HEAD
+/* 307 */
+=======
 /* 305 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -30966,8 +31998,16 @@
 <<<<<<< HEAD
 	__webpack_require__(308);
 =======
+<<<<<<< HEAD
+	__webpack_require__(308);
+=======
 	__webpack_require__(306);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31006,8 +32046,16 @@
 <<<<<<< HEAD
 /* 308 */
 =======
+<<<<<<< HEAD
+/* 308 */
+=======
 /* 306 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -31016,8 +32064,16 @@
 <<<<<<< HEAD
 	var content = __webpack_require__(309);
 =======
+<<<<<<< HEAD
+	var content = __webpack_require__(309);
+=======
 	var content = __webpack_require__(307);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -31030,9 +32086,18 @@
 			module.hot.accept(309, function() {
 				var newContent = __webpack_require__(309);
 =======
+<<<<<<< HEAD
+			module.hot.accept(309, function() {
+				var newContent = __webpack_require__(309);
+=======
 			module.hot.accept(307, function() {
 				var newContent = __webpack_require__(307);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -31045,8 +32110,16 @@
 <<<<<<< HEAD
 /* 309 */
 =======
+<<<<<<< HEAD
+/* 309 */
+=======
 /* 307 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -31063,8 +32136,16 @@
 <<<<<<< HEAD
 /* 310 */
 =======
+<<<<<<< HEAD
+/* 310 */
+=======
 /* 308 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -31082,8 +32163,16 @@
 <<<<<<< HEAD
 	__webpack_require__(305);
 =======
+<<<<<<< HEAD
+	__webpack_require__(305);
+=======
 	__webpack_require__(303);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31122,8 +32211,16 @@
 <<<<<<< HEAD
 /* 311 */
 =======
+<<<<<<< HEAD
+/* 311 */
+=======
 /* 309 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -31141,8 +32238,16 @@
 <<<<<<< HEAD
 	__webpack_require__(312);
 =======
+<<<<<<< HEAD
+	__webpack_require__(312);
+=======
 	__webpack_require__(310);
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31181,8 +32286,16 @@
 <<<<<<< HEAD
 /* 312 */
 =======
+<<<<<<< HEAD
+/* 312 */
+=======
 /* 310 */
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ function(module, exports) {
 
 	/**
@@ -31190,6 +32303,8 @@
 	 */
 	"use strict";
 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 /***/ },
@@ -31261,6 +32376,11 @@
 
 
 >>>>>>> upstream/dev
+<<<<<<< HEAD
+>>>>>>> upstream/dev
+=======
+>>>>>>> upstream/master
+>>>>>>> master
 /***/ }
 /******/ ]);
 //# sourceMappingURL=index.js.map
