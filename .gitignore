@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ### Windows template
 # Windows image file caches
@@ -188,3 +189,7 @@ fabric.properties
 .idea
 
 /public/dist/
+=======
+.idea/
+node_modules/
+>>>>>>> upstream/dev
