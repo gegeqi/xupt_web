@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import {render} from 'react-dom';
 import Main_view from "./components/Main_view";
 import HomePage from "./components/homepage/HomePage";
@@ -22,21 +21,5 @@ render(
             <Route path="/talentshow" component={TalentShow}/>
         </Route>
     </Router>,
-    document.getElementById('react-root')
-=======
-import { render } from 'react-dom';
-import IndexPage from './components/IndexPage';
-import Tab1 from './components/Tab1';
-import Tab2 from './components/Tab2';
-import { Router, Route, browserHistory } from 'react-router';
+    document.getElementById('react-root'));
 
-render(
-  <Router history={browserHistory}>
-    <Route path="/" component={IndexPage}>
-      <Route path="/tab1" component={Tab1} />
-      <Route path="/tab2" component={Tab2} />
-    </Route>
-  </Router>,
-  document.getElementById('react-root')
->>>>>>> upstream/dev
-);
