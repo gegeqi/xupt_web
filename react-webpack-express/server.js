@@ -1,5 +1,6 @@
 import express from "express";
 import webpack from "webpack";
+
 import path from "path";
 import WebpackHotMiddleware from 'webpack-hot-middleware';
 import WebpackDevMiddleware from 'webpack-dev-middleware';
@@ -40,7 +41,6 @@ router.get('/register', function (req, res, next) {
     res.sendFile(path.resolve('./public/views/login_register.html'));
 });
 
-// 根目录下的所有404错误，引向index.html页面，让react-router进行解析
 router.use('*', function (req, res) {
     res.sendFile(path.resolve('./public/views/index.html'));
 });
