@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "006fbc3f117f9779e1b1"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "43454718aeb6dc96e854"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -591,11 +591,11 @@
 
 	var _reactDom = __webpack_require__(32);
 
-	var _LoginPage = __webpack_require__(311);
+	var _LoginPage = __webpack_require__(313);
 
 	var _LoginPage2 = _interopRequireDefault(_LoginPage);
 
-	var _RegisterPage = __webpack_require__(318);
+	var _RegisterPage = __webpack_require__(320);
 
 	var _RegisterPage2 = _interopRequireDefault(_RegisterPage);
 
@@ -27466,7 +27466,9 @@
 /* 308 */,
 /* 309 */,
 /* 310 */,
-/* 311 */
+/* 311 */,
+/* 312 */,
+/* 313 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27477,11 +27479,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	__webpack_require__(312);
-
 	__webpack_require__(314);
 
 	__webpack_require__(316);
+
+	__webpack_require__(318);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27540,46 +27542,6 @@
 	module.exports = LoginPage;
 
 /***/ },
-/* 312 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(313);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(238)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(true) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept(313, function() {
-				var newContent = __webpack_require__(313);
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 313 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(237)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"\\5FAE\\8F6F\\96C5\\9ED1\", \"\\5B8B\\4F53\";\n}\n\nhtml {\n  font-size: 62.5%;\n}\n\nbody {\n  margin: 0;\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
 /* 314 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -27614,7 +27576,7 @@
 
 
 	// module
-	exports.push([module.id, ".page-section {\n  width: 100%;\n  padding: 10px;\n}\n\ndiv.field-group {\n  margin-top: 1px;\n}\n\ndiv.field-errors {\n  padding-top: 10px;\n  padding-bottom: 10px;\n}\n\ndiv.field-text {\n  border: 1px solid #ccc;\n  margin-bottom: -1px;\n}\n\ndiv.field input[type=\"text\"] {\n  width: 100%;\n  border: none;\n  outline: none;\n  background-color: #fff;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  text-indent: 10px;\n}\n\nbutton.btn {\n  color: #fff;\n  background-color: #3e6de6;\n  border: 0;\n  outline: none;\n  padding: 10px;\n}\n\nbutton.block {\n  width: 100%;\n}\n", ""]);
+	exports.push([module.id, "* {\n  box-sizing: border-box;\n  font-family: \"\\5FAE\\8F6F\\96C5\\9ED1\", \"\\5B8B\\4F53\";\n}\n\nhtml {\n  font-size: 62.5%;\n}\n\nbody {\n  margin: 0;\n}\n", ""]);
 
 	// exports
 
@@ -27654,13 +27616,53 @@
 
 
 	// module
-	exports.push([module.id, ".login-register-page {\n  background-color: #eaeaea;\n}\n\n.login-register-form {\n  width: 200px;\n  margin: 0 auto;\n}\n", ""]);
+	exports.push([module.id, ".page-section {\n  width: 100%;\n  padding: 10px;\n}\n\ndiv.field-group {\n  margin-top: 1px;\n}\n\ndiv.field-errors {\n  padding-top: 10px;\n  padding-bottom: 10px;\n}\n\ndiv.field-text {\n  border: 1px solid #ccc;\n  margin-bottom: -1px;\n}\n\ndiv.field input[type=\"text\"] {\n  width: 100%;\n  border: none;\n  outline: none;\n  background-color: #fff;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  text-indent: 10px;\n}\n\nbutton.btn {\n  color: #fff;\n  background-color: #3e6de6;\n  border: 0;\n  outline: none;\n  padding: 10px;\n}\n\nbutton.block {\n  width: 100%;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
 /* 318 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(319);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(238)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(319, function() {
+				var newContent = __webpack_require__(319);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 319 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(237)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".login-register-page {\n  background-color: #eaeaea;\n}\n\n.login-register-form {\n  width: 200px;\n  margin: 0 auto;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 320 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27671,11 +27673,11 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	__webpack_require__(312);
-
 	__webpack_require__(314);
 
 	__webpack_require__(316);
+
+	__webpack_require__(318);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
