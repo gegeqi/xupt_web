@@ -65,7 +65,11 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /******/ 	var hotCurrentHash = "43454718aeb6dc96e854"; // eslint-disable-line no-unused-vars
+=======
+/******/ 	var hotCurrentHash = "006fbc3f117f9779e1b1"; // eslint-disable-line no-unused-vars
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -591,11 +595,19 @@
 
 	var _reactDom = __webpack_require__(32);
 
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 	var _LoginPage = __webpack_require__(313);
 
 	var _LoginPage2 = _interopRequireDefault(_LoginPage);
 
 	var _RegisterPage = __webpack_require__(320);
+=======
+	var _LoginPage = __webpack_require__(311);
+
+	var _LoginPage2 = _interopRequireDefault(_LoginPage);
+
+	var _RegisterPage = __webpack_require__(318);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 
 	var _RegisterPage2 = _interopRequireDefault(_RegisterPage);
 
@@ -27466,9 +27478,13 @@
 /* 308 */,
 /* 309 */,
 /* 310 */,
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /* 311 */,
 /* 312 */,
 /* 313 */
+=======
+/* 311 */
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27479,11 +27495,19 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 	__webpack_require__(314);
 
 	__webpack_require__(316);
 
 	__webpack_require__(318);
+=======
+	__webpack_require__(312);
+
+	__webpack_require__(314);
+
+	__webpack_require__(316);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27542,13 +27566,21 @@
 	module.exports = LoginPage;
 
 /***/ },
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /* 314 */
+=======
+/* 312 */
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 	var content = __webpack_require__(315);
+=======
+	var content = __webpack_require__(313);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -27557,8 +27589,13 @@
 	if(true) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 			module.hot.accept(315, function() {
 				var newContent = __webpack_require__(315);
+=======
+			module.hot.accept(313, function() {
+				var newContent = __webpack_require__(313);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -27568,7 +27605,11 @@
 	}
 
 /***/ },
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /* 315 */
+=======
+/* 313 */
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -27582,13 +27623,21 @@
 
 
 /***/ },
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /* 316 */
+=======
+/* 314 */
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 	var content = __webpack_require__(317);
+=======
+	var content = __webpack_require__(315);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -27597,8 +27646,13 @@
 	if(true) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 			module.hot.accept(317, function() {
 				var newContent = __webpack_require__(317);
+=======
+			module.hot.accept(315, function() {
+				var newContent = __webpack_require__(315);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -27608,7 +27662,11 @@
 	}
 
 /***/ },
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /* 317 */
+=======
+/* 315 */
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -27622,13 +27680,21 @@
 
 
 /***/ },
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /* 318 */
+=======
+/* 316 */
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 	var content = __webpack_require__(319);
+=======
+	var content = __webpack_require__(317);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(238)(content, {});
@@ -27637,8 +27703,13 @@
 	if(true) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 			module.hot.accept(319, function() {
 				var newContent = __webpack_require__(319);
+=======
+			module.hot.accept(317, function() {
+				var newContent = __webpack_require__(317);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -27648,7 +27719,11 @@
 	}
 
 /***/ },
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /* 319 */
+=======
+/* 317 */
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(237)();
@@ -27662,7 +27737,11 @@
 
 
 /***/ },
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 /* 320 */
+=======
+/* 318 */
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27673,11 +27752,19 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD:react-webpack-express/public/dist/login_register.js
 	__webpack_require__(314);
 
 	__webpack_require__(316);
 
 	__webpack_require__(318);
+=======
+	__webpack_require__(312);
+
+	__webpack_require__(314);
+
+	__webpack_require__(316);
+>>>>>>> upstream/master:react-webpack-express/public/dist/login_register.js
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
