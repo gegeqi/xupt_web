@@ -16,6 +16,7 @@
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.23.0",
+<<<<<<< HEAD
     "bootstrap-loader": "^2.0.0-beta.22",
     "css-loader": "^0.26.1",
     "express": "^4.14.0",
@@ -24,13 +25,21 @@
     "resolve-url-loader": "^2.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.8",
+=======
+    "css-loader": "^0.26.1",
+    "express": "^4.14.0",
+    "style-loader": "^0.13.1",
+>>>>>>> upstream/dev
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.2"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap-sass": "^3.3.7",
     "jquery": "^3.1.1",
+=======
+>>>>>>> upstream/dev
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-redux": "^4.4.6",
