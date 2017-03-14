@@ -21,5 +21,5 @@ render(
             <Route path="/talentshow" component={TalentShow}/>
         </Route>
     </Router>,
-    document.getElementById('react-root')
-);
+    document.getElementById('react-root'));
+
