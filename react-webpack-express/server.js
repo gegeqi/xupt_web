@@ -1,5 +1,6 @@
 import express from "express";
 import webpack from "webpack";
+import path from "path";
 import WebpackHotMiddleware from 'webpack-hot-middleware';
 import WebpackDevMiddleware from 'webpack-dev-middleware';
 import config from './webpack.config.js';
@@ -25,15 +26,15 @@ app.use(express.static('public'));
 
 var router = express.Router();
 router.get('/login', function (req, res, next) {
-    res.sendfile('./public/views/login_register.html'); // 发送静态文件
+    res.sendFile(path.resolve('./public/views/login_register.html')); // 发送静态文件
 });
 router.get('/register', function (req, res, next) {
-    res.sendfile('./public/views/login_register.html');
+    res.sendFile(path.resolve('./public/views/login_register.html'));
 });
 
 // 根目录下的所有404错误，引向index.html页面，让react-router进行解析
-router.get('/*', function (req, res) {
-    res.sendfile('./public/views/index.html');
+router.use('*', function (req, res) {
+    res.sendFile(path.resolve('./public/views/index.html'));
 });
 app.use(router);
 

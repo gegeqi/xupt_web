@@ -5,14 +5,14 @@ var ROOT_PATH = path.resolve(__dirname);
 
 let configs = {
   entry: {
-    vender: ['webpack/hot/dev-server', 'webpack-hot-middleware/client'], // 额外插件打包成vender
+    vendor: ['webpack/hot/dev-server', 'webpack-hot-middleware/client',"./node_modules/bootstrap/dist/css/bootstrap.css"], // 额外插件打包成vender
     index: './public/src/js/index.js',
     login_register: './public/src/js/login_register.js'
   },
   output: {
-    path: path.join(ROOT_PATH, 'dist'),
+    path: require('path').resolve("./public/dist"),
     publicPath: '/', // output.path的相对路径
-    filename: 'js/[name].js' // 根据原始名动态命名
+    filename: '[name].js' // 根据原始名动态命名
   },
   module: {
     loaders: [
@@ -26,9 +26,15 @@ let configs = {
         query: {
           presets: ['es2015', 'react']
         }
-      }
+      },
+      {test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=application/font-woff'},
+      {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=application/octet-stream'},
+      {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file'},
+      {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml'}
+
     ]
   },
+  devtool: "#cheap-source-map",
   plugins: [
     new webpack.HotModuleReplacementPlugin(), // 热更新插件
   ]
