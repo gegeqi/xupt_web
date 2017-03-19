@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "../../../css/telentshow/studentMien";
+import "../../../css/elegantshow/studentMien.css";
 
 export default class StudentMien extends Component{
     render(){

@@ -32,7 +32,7 @@ class Frame_header extends Component {
                                                 </a></li>
                                             </ul>
                                         </li>
-                                        <li className="s2"><Link to="/talentshow"><span><div className="logo">风采展示</div></span></Link>
+                                        <li className="s2"><Link to="/elegantShow"><span><div className="logo">风采展示</div></span></Link>
                                             <ul className="p3 a6">
                                                 <li><a href="#">
                                                     <div className="logo">明星导师</div>
