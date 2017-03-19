@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#top_box{
+    width: 100%;
+    height:410px;
+    border: 1px solid #000;
+}
+#left{
+    width: 30%;
+    height: 410px;
+    border: 1px solid yellow;
+    background-color: #CCCCCC;
+}
+#left ul{
+    margin: 30px 20%;
+    height: 300px;
+}
+#left ul li{
+    height: 50px;
+    background-color: #FF3366;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 1px solid green;
+}
+#right{
+    position: absolute;
+    height: 410px;
+    width: 70%;
+    border: 1px solid red;
+    right: 0;
+    top:100px;
+}
