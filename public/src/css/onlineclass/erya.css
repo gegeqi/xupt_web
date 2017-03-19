@@ -43,7 +43,7 @@
     margin:20px auto;
     width: 1150px;
 }
-ul li{
+#container ul li{
     list-style-type: none;
     float: left;
     width: 200px;
