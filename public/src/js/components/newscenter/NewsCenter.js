@@ -3,7 +3,6 @@ import {Link} from "react-router";
 import "../../../css/newscenter/NewsCenter.css";
 
 export default class NewsCenter extends Component {
-
     render() {
         return (
             <div>

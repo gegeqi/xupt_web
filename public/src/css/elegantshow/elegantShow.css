@@ -19,7 +19,7 @@
     flex-direction: column;
 }
 
-li {
+.elegant-slide ul li {
     list-style: none;
     padding: 10px 20px;
     margin: 5px;
