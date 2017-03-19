@@ -1,7 +1,5 @@
-li{
+.newsNavigation a li{
     list-style: none;
-}
-.newsNavigation > a > li{
     padding: 10px 20px;
     margin: 5px;
     background-color: #bbb;
@@ -55,6 +53,3 @@ li{
     margin-left: 35%;
 }
 
-.pagination > li{
-    padding: 0;
-}
