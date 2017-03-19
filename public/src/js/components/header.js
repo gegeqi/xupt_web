@@ -7,7 +7,9 @@ class Frame_header extends Component {
         return (
             <div id="top">
                 <div id="left1">
-                    <img src="../../../image/logo.gif" alt="logo"/>
+                    <Link to={'/'}>
+                        <img src="../../../image/logo.gif" alt="logo"/>
+                    </Link>
                 </div>
                 <div id="daohang">
                     <div className="menuHolder">
