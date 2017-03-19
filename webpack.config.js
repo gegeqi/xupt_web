@@ -1,5 +1,6 @@
 var path = require('path');
-var webpack = require('webpack');
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var webpack = require("webpack");
 
 var ROOT_PATH = path.resolve(__dirname);
 
@@ -23,9 +24,10 @@ let configs = {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/, // 排除node_modules内的文件
-                query: {
-                    presets: ['es2015', 'react']
-                }
+            },
+            {
+                test: /\.json$/,
+                loader: 'json-loader'
             },
             {test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/, loader: 'url-loader?limit=10000&mimetype=application/font-woff'},
             {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'url-loader?limit=10000&mimetype=application/octet-stream'},
@@ -36,6 +38,7 @@ let configs = {
     },
     devtool: "#cheap-source-map",
     plugins: [
+        new ExtractTextPlugin("[name].css"),
         new webpack.HotModuleReplacementPlugin(), // 热更新插件
     ]
 }
