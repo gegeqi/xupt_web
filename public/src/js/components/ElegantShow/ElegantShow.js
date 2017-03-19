@@ -33,7 +33,6 @@ export default class ElegantShow extends Component {
           </div>
           <div className="elegant-container">
             {this.props.children}
-            {console.log(this.props.children)}
           </div>
         </div>
     )
