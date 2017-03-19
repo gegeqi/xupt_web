@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from "react";
 import {Link} from "react-router";
 import "../../css/homepage/frame_header.css";
 
@@ -13,52 +13,84 @@ class Frame_header extends Component {
                     <div className="menuHolder">
                         <div className="menuWindow">
                             <ul className="p1">
-                                <li className="s1"><a href="#url">
+                                <li className="s1">
+                                    <a href="#url">
                                     <div className="logo">网站导航</div>
-                                </a>
+                                    </a>
                                     <ul className="p2">
-                                        <li className="s2"><a href="#"><span><div className="logo">首页</div></span></a>
+                                        <li className="s2">
+                                            <a href="#">
+                                                <span><div className="logo">首页</div></span></a>
                                         </li>
-                                        <li className="s2"><Link to="/newscenter"><span><div className="logo">新闻中心</div></span></Link>
+                                        <li className="s2">
+                                            <Link to="/newscenter">
+                                                <span><div className="logo">新闻中心</div></span>
+                                            </Link>
                                             <ul className="p3 a3">
-                                                <li><a href="#">
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">西邮热点</div>
-                                                </a></li>
-                                                <li><a href="#">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">媒体聚焦</div>
-                                                </a></li>
-                                                <li><a href="#">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">公告通知</div>
-                                                </a></li>
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </li>
-                                        <li className="s2"><Link to="/elegantShow"><span><div className="logo">风采展示</div></span></Link>
+                                        <li className="s2">
+                                            <Link to="/elegantShow">
+                                                <span><div className="logo">风采展示</div></span>
+                                            </Link>
                                             <ul className="p3 a6">
-                                                <li><a href="#">
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">明星导师</div>
-                                                </a></li>
-                                                <li><a href="#">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">学生风采</div>
-                                                </a></li>
-                                                <li><a href="#">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">项目展示</div>
-                                                </a></li>
-                                                <li><a href="#">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">孵化基地</div>
-                                                </a></li>
-                                                <li><a href="#">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">大创中心</div>
-                                                </a></li>
-                                                <li><a href="#">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">创新实验室</div>
-                                                </a></li>
-                                                <li><a href="#">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
                                                     <div className="logo">创新社团</div>
-                                                </a></li>
+                                                    </a>
+                                                </li>
 
                                             </ul>
                                         </li>
-                                        <li className="s2"><Link to="innovationdata"><span><div className="logo">创新数据</div></span></Link>
+                                        <li className="s2">
+                                            <Link to="innovationdata">
+                                                <span><div className="logo">创新数据</div></span>
+                                            </Link>
                                             <ul className="p3 a3">
                                                 <li><a href="#">
                                                     <div className="logo">历年数据</div>
@@ -71,7 +103,10 @@ class Frame_header extends Component {
                                                 </a></li>
                                             </ul>
                                         </li>
-                                        <li className="s2"><Link to="onlineclass"><span><div className="logo">在线课堂</div></span></Link>
+                                        <li className="s2">
+                                            <Link to="onlineclass">
+                                                <span><div className="logo">在线课堂</div></span>
+                                            </Link>
                                             <ul className="p3 a3">
                                                 <li><a href="#">
                                                     <div className="logo">尔雅基础教程</div>
@@ -96,8 +131,10 @@ class Frame_header extends Component {
                                                 </a></li>
                                             </ul>
                                         </li>
-                                        <li className="s2 b6"><Link to="/community"><span><div
-                                            className="logo">互动社区</div></span></Link>
+                                        <li className="s2 b6">
+                                            <Link to="/community">
+                                                <span><div className="logo">互动社区</div></span>
+                                            </Link>
                                             <ul className="p3 a5">
                                                 <li><a href="#">
                                                     <div className="logo">创业竞赛交流专区</div>

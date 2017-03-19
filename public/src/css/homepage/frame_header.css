@@ -1,13 +1,11 @@
 
-* {
+.top * {
     margin: 0px ;
     padding: 0px;
 }
 
 body {
     /*background: #b1b1b1;*/
-    margin: 0px;
-    padding: 0px;
     font-size: 14px;
     color: #000;
 }
