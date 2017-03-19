@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "../../../css/telentshow/innovationLab.css";
+import "../../../css/elegantshow/innovationLab.css";
 
 export default class InnovationLab extends Component{
     render(){
