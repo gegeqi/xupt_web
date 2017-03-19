@@ -1,7 +1,7 @@
 li{
     list-style: none;
 }
-.newsNavigation li{
+.newsNavigation > a > li{
     padding: 10px 20px;
     margin: 5px;
     background-color: #bbb;
@@ -53,4 +53,8 @@ li{
     position: absolute;
     bottom: 5px;
     margin-left: 35%;
+}
+
+.pagination > li{
+    padding: 0;
 }
