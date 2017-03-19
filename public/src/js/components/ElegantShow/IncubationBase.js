@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "../../../css/telentshow/incubationBase.css";
+import "../../../css/elegantshow/incubationBase.css";
 
 export default class IncubationBase extends Component{
     render(){
