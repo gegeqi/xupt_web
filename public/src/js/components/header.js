@@ -17,7 +17,7 @@ class Frame_header extends Component {
                             <ul className="p1">
                                 <li className="s1">
                                     <a href="#url">
-                                    <div className="logo">网站导航</div>
+                                        <div className="logo">网站导航</div>
                                     </a>
                                     <ul className="p2">
                                         <li className="s2">
@@ -31,17 +31,17 @@ class Frame_header extends Component {
                                             <ul className="p3 a3">
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">西邮热点</div>
+                                                        <div className="logo">西邮热点</div>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">媒体聚焦</div>
+                                                        <div className="logo">媒体聚焦</div>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">公告通知</div>
+                                                        <div className="logo">公告通知</div>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -53,37 +53,37 @@ class Frame_header extends Component {
                                             <ul className="p3 a6">
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">明星导师</div>
+                                                        <div className="logo">明星导师</div>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">学生风采</div>
+                                                        <div className="logo">学生风采</div>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">项目展示</div>
+                                                        <div className="logo">项目展示</div>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">孵化基地</div>
+                                                        <div className="logo">孵化基地</div>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">大创中心</div>
+                                                        <div className="logo">大创中心</div>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">创新实验室</div>
+                                                        <div className="logo">创新实验室</div>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                    <div className="logo">创新社团</div>
+                                                        <div className="logo">创新社团</div>
                                                     </a>
                                                 </li>
 
