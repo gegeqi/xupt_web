@@ -42,15 +42,10 @@ export default class AdmissionInfo extends Component {
         return (
             <div className="newsWrap">
                 <div>
-                    <div>
+                    <div className="admissionArticle">
                         <ReactMarkdown source={article}/>
                     </div>
-
-                    <div className="foot">
-
-                    </div>
                 </div>
-
             </div>
         );
     }

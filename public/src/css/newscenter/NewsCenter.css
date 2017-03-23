@@ -11,7 +11,6 @@
     height: auto;
     margin: 40px auto;
     background-color: #c8e5bc;
-
 }
 
 .newsNavigation{
@@ -51,5 +50,10 @@
     position: absolute;
     bottom: 5px;
     margin-left: 35%;
+}
+
+.admissionArticle{
+    margin: 5px 5px 5px 10px;
+    padding: 5px 5px;
 }
 
