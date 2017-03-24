@@ -5,6 +5,9 @@ import HomePage from "./components/homepage/HomePage";
 import Community from "./components/community/Community";
 import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import InnovationData from "./components/innovationData/InnovationData";
+import Competition from "./components/innovationData/Competition";
+import AwardItems from "./components/innovationData/AwardItems";
+import Incubation from "./components/innovationData/Incubation";
 import NewsCenter from "./components/newscenter/NewsCenter";
 import NewsWall from "./components/newscenter/NewsWall";
 import XUHotNews from "./components/newscenter/XUHotNews";
@@ -25,7 +28,11 @@ render(
         <Route path="/" component={Main_view}>
             <IndexRoute component={HomePage}/>
             <Route path="/community" component={Community}/>
-            <Route path="/innovationdata" component={InnovationData}/>
+            <Route path="/innovationdata" component={InnovationData}>
+                <IndexRoute component={Competition}/>
+                <Route path="/innovationdata/incubation" component={Incubation}/>
+                <Route path="/innovationdata/awarditems" component={AwardItems}/>
+            </Route>
             <Route path="/newscenter" component={NewsCenter}>
                 <IndexRoute component={NewsWall}/>
                 <Route path="/newscenter/xuhotnews" component={XUHotNews}/>
