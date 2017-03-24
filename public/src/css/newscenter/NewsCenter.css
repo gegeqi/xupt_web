@@ -1,7 +1,5 @@
-li{
+.newsNavigation a li{
     list-style: none;
-}
-.newsNavigation > a > li{
     padding: 10px 20px;
     margin: 5px;
     background-color: #bbb;
@@ -13,7 +11,6 @@ li{
     height: auto;
     margin: 40px auto;
     background-color: #c8e5bc;
-
 }
 
 .newsNavigation{
@@ -55,6 +52,8 @@ li{
     margin-left: 35%;
 }
 
-.pagination > li{
-    padding: 0;
+.admissionArticle{
+    margin: 5px 5px 5px 10px;
+    padding: 5px 5px;
 }
+

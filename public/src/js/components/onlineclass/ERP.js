@@ -4,7 +4,14 @@ import "../../../css/onlineclass/ERP.css";
 export default class ERP extends Component{
     render(){
         return(
-            <div>i am ERP!!</div>
+            <div id="bottom">
+                <ul>
+                    <li><img src=""/></li>
+                    <li><img src=""/></li>
+                    <li><img src=""/></li>
+                    <li><img src=""/></li>
+                </ul>
+            </div>
         )
     }
 }

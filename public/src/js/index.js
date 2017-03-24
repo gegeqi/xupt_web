@@ -4,7 +4,6 @@ import Main_view from "./components/Main_view";
 import HomePage from "./components/homepage/HomePage";
 import Community from "./components/community/Community";
 import {Router, Route, IndexRoute, browserHistory} from 'react-router';
-
 import InnovationData from "./components/innovationData/InnovationData";
 import Competition from "./components/innovationData/Competition";
 import AwardItems from "./components/innovationData/AwardItems";
@@ -22,6 +21,7 @@ import InnovationLab from "./components/ElegantShow/InnovationLab";
 import PioneerCenter from "./components/ElegantShow/PioneerCenter";
 import StarTeacher from "./components/ElegantShow/StarTeacher";
 import StudentMien from "./components/ElegantShow/StudentMien";
+import Erya from "./components/onlineclass/Erya";
 
 render(
     <Router history={browserHistory}>
@@ -39,6 +39,7 @@ render(
                 <Route path="/newscenter/admission" component={AdmissionInfo}/>
             </Route>
             <Route path="/onlineclass" component={OnlineClass}/>
+            <Route path="/onlineclass/erya" component={Erya}/>
             <Route path="/elegantShow" component={ElegantShow}>
                 <IndexRoute component={InnovationCommunities}/>
                 <Route path='/elegantShow/' component={IncubationBase}/>
@@ -51,4 +52,3 @@ render(
         </Route>
     </Router>,
     document.getElementById('react-root'));
-
