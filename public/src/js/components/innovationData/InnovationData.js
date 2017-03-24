@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {IndexLink, Link} from "react-router";
 import Navigation from "./Navigation";
-import "../../../css/innovationData/innovationlist.css";
+import "../../../css/innovationData/innovationdata.css";
 
 export default class InnovationList extends Component {
     render() {
