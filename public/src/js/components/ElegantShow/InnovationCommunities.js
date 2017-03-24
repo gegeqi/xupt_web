@@ -39,11 +39,6 @@ export default class InnovationCommunities extends Component {
     }
   }
 
-  componentWillMount() {
-    var totalNum = this.state.allItems.length;
-
-  }
-
   render() {
 
     const item = this.state.allItems.map((item, index) => {
