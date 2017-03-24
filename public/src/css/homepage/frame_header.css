@@ -12,12 +12,12 @@ body {
     color: #000;
 }
 /**/
-.logo{
+.header-logo{
     transform: scale(1,-1);
     transform:rotateY(180deg);
 }
 
-.menuHolder {
+.header-menuHolder {
     width: 100px;
     height: 100px;
     position: relative;
@@ -26,7 +26,7 @@ body {
     transform: scale(-1,1);
 }
 
-.menuHolder ul {
+.header-menuHolder ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -37,13 +37,13 @@ body {
      height: 0;*/
 }
 
-.menuHolder ul li {
+.header-menuHolder ul li {
     border-radius: 0 0 300px 0;
     width: 0;
     height: 0;
 }
 
-.menuHolder ul li a {
+.header-menuHolder ul li a {
     color: #000;
     text-decoration: none;
     font: bold 13px/30px arial, sans-serif;
@@ -56,21 +56,21 @@ body {
     transform-origin: 0 0;
 }
 
-.menuHolder ul.p1 li {
+.header-menuHolder ul.header-p1 li {
     position: absolute;
     left: 0;
     top: 0;
 }
 
-.menuHolder ul.p2 {
+.header-menuHolder ul.header-p2 {
     z-index: -1;
 }
 
-.menuHolder ul.p3 {
+.header-menuHolder ul.header-p3 {
     z-index: -1;
 }
 
-.menuHolder li.s1 > a {
+.header-menuHolder li.header-s1 > a {
     position: absolute;
     display: block;
     width: 100px;
@@ -79,7 +79,7 @@ body {
     border-radius: 0 0 100px 0;
 }
 
-.menuHolder li.s2 > a {
+.header-menuHolder li.header-s2 > a {
     position: absolute;
     display: block;
     width: 100px;
@@ -89,7 +89,7 @@ body {
     border-radius: 0 0 200px 0;
 }
 
-.menuHolder ul.p3 li a {
+.header-menuHolder ul.header-p3 li a {
     position: absolute;
     display: block;
     width: 100px;
@@ -99,7 +99,7 @@ body {
     border-radius: 0 0 300px 0;
 }
 
-.menuHolder ul ul {
+.header-menuHolder ul ul {
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
@@ -117,7 +117,7 @@ body {
     transition: 1s;
 }
 
-.menuHolder li.s2:nth-of-type(6) > a {
+.header-menuHolder li.header-s2:nth-of-type(6) > a {
     background: #888;
     -webkit-transform: rotate(75deg);
     -moz-transform: rotateZ(75deg);
@@ -126,7 +126,7 @@ body {
     transform: rotate(75deg);
 }
 
-.menuHolder li.s2:nth-of-type(5) > a {
+.header-menuHolder li.header-s2:nth-of-type(5) > a {
     background: #999;
     -webkit-transform: rotate(60deg);
     -moz-transform: rotateZ(60deg);
@@ -135,7 +135,7 @@ body {
     transform: rotate(60deg);
 }
 
-.menuHolder li.s2:nth-of-type(4) > a {
+.header-menuHolder li.header-s2:nth-of-type(4) > a {
     background: #aaa;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotateZ(45deg);
@@ -144,7 +144,7 @@ body {
     transform: rotate(45deg);
 }
 
-.menuHolder li.s2:nth-of-type(3) > a {
+.header-menuHolder li.header-s2:nth-of-type(3) > a {
     background: #bbb;
     -webkit-transform: rotate(30deg);
     -moz-transform: rotateZ(30deg);
@@ -153,7 +153,7 @@ body {
     transform: rotate(30deg);
 }
 
-.menuHolder li.s2:nth-of-type(2) > a {
+.header-menuHolder li.header-s2:nth-of-type(2) > a {
     background: #ccc;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotateZ(15deg);
@@ -162,7 +162,7 @@ body {
     transform: rotate(15deg);
 }
 
-.menuHolder .a6 li:nth-of-type(6) > a {
+.header-menuHolder .header-a6 li:nth-of-type(6) > a {
     background: #444;
     -webkit-transform: rotate(75deg);
     -moz-transform: rotateZ(75deg);
@@ -171,7 +171,7 @@ body {
     transform: rotate(75deg);
 }
 
-.menuHolder .a6 li:nth-of-type(5) > a {
+.header-menuHolder .header-a6 li:nth-of-type(5) > a {
     background: #555;
     -webkit-transform: rotate(60deg);
     -moz-transform: rotateZ(60deg);
@@ -180,7 +180,7 @@ body {
     transform: rotate(60deg);
 }
 
-.menuHolder .a6 li:nth-of-type(4) > a {
+.header-menuHolder .header-a6 li:nth-of-type(4) > a {
     background: #666;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotateZ(45deg);
@@ -189,7 +189,7 @@ body {
     transform: rotate(45deg);
 }
 
-.menuHolder .a6 li:nth-of-type(3) > a {
+.header-menuHolder .header-a6 li:nth-of-type(3) > a {
     background: #777;
     -webkit-transform: rotate(30deg);
     -moz-transform: rotateZ(30deg);
@@ -198,7 +198,7 @@ body {
     transform: rotate(30deg);
 }
 
-.menuHolder .a6 li:nth-of-type(2) > a {
+.header-menuHolder .header-a6 li:nth-of-type(2) > a {
     background: #888;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotateZ(15deg);
@@ -207,7 +207,7 @@ body {
     transform: rotate(15deg);
 }
 
-.menuHolder .a5 li:nth-of-type(5) > a {
+.header-menuHolder .header-a5 li:nth-of-type(5) > a {
     background: #555;
     -webkit-transform: rotate(72deg);
     -moz-transform: rotateZ(72deg);
@@ -216,7 +216,7 @@ body {
     transform: rotate(72deg);
 }
 
-.menuHolder .a5 li:nth-of-type(4) > a {
+.header-menuHolder .header-a5 li:nth-of-type(4) > a {
     background: #666;
     -webkit-transform: rotate(54deg);
     -moz-transform: rotateZ(54deg);
@@ -225,7 +225,7 @@ body {
     transform: rotate(54deg);
 }
 
-.menuHolder .a5 li:nth-of-type(3) > a {
+.header-menuHolder .header-a5 li:nth-of-type(3) > a {
     background: #777;
     -webkit-transform: rotate(36deg);
     -moz-transform: rotateZ(36deg);
@@ -234,7 +234,7 @@ body {
     transform: rotate(36deg);
 }
 
-.menuHolder .a5 li:nth-of-type(2) > a {
+.header-menuHolder .header-a5 li:nth-of-type(2) > a {
     background: #888;
     -webkit-transform: rotate(18deg);
     -moz-transform: rotateZ(18deg);
@@ -243,7 +243,7 @@ body {
     transform: rotate(18deg);
 }
 
-.menuHolder .a3 li:nth-of-type(3) > a {
+.header-menuHolder .header-a3 li:nth-of-type(3) > a {
     background: #777;
     -webkit-transform: rotate(60deg);
     -moz-transform: rotateZ(60deg);
@@ -252,7 +252,7 @@ body {
     transform: rotate(60deg);
 }
 
-.menuHolder .a3 li:nth-of-type(2) > a {
+.header-menuHolder .header-a3 li:nth-of-type(2) > a {
     background: #888;
     -webkit-transform: rotate(30deg);
     -moz-transform: rotateZ(30deg);
@@ -261,7 +261,7 @@ body {
     transform: rotate(30deg);
 }
 
-.menuHolder li.s1:hover ul.p2 {
+.header-menuHolder li.header-s1:hover ul.header-p2 {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotateZ(0deg);
     -ms-transform: rotate(0deg);
@@ -269,7 +269,7 @@ body {
     transform: rotate(0deg);
 }
 
-.menuHolder li.s2:hover ul.p3 {
+.header-menuHolder li.header-s2:hover ul.header-p3 {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotateZ(0deg);
     -ms-transform: rotate(0deg);
@@ -277,32 +277,32 @@ body {
     transform: rotate(0deg);
 }
 
-.menuHolder ul li:hover > a {
+.header-menuHolder ul li:hover > a {
     background: #f00;
     color: #fff;
 }
 
-.menuHolder li.s2:hover > a {
+.header-menuHolder li.header-s2:hover > a {
     background: #d00;
     color: #fff;
 }
 
-.menuHolder .a6 li:hover > a {
+.header-menuHolder .header-a6 li:hover > a {
     background: #b00;
     color: #fff;
 }
 
-.menuHolder .a5 li:hover > a {
+.header-menuHolder .header-a5 li:hover > a {
     background: #b00;
     color: #fff;
 }
 
-.menuHolder .a3 li:hover > a {
+.header-menuHolder .header-a3 li:hover > a {
     background: #b00;
     color: #fff;
 }
 
-.menuWindow {
+.header-menuWindow {
     width: 110px;
     height: 110px;
     overflow: hidden;
@@ -317,7 +317,7 @@ body {
     transition: 0s 1s;
 }
 
-.menuHolder:hover .menuWindow {
+.header-menuHolder:hover .header-menuWindow {
     width: 310px;
     height: 310px;
     -webkit-transition: 0s 0s;
@@ -327,7 +327,7 @@ body {
     transition: 0s 0s;
 }
 
-.menuHolder span {
+.header-menuHolder span {
     display: block;
     -webkit-transform: rotate(5deg);
     -moz-transform: rotateZ(5deg);
@@ -336,7 +336,7 @@ body {
     transform: rotate(5deg);
 }
 
-.menuHolder ~ img.close {
+.header-menuHolder ~ img.close {
     width: 0;
     height: 0;
     position: fixed;
@@ -345,7 +345,7 @@ body {
     top: 0;
 }
 
-.menuHolder:hover ~ img.close {
+.header-menuHolder:hover ~ img.close {
     width: 100%;
     height: 100%;
 }

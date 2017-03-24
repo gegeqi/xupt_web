@@ -1,0 +1,30 @@
+.innovationlist-main {
+    display: flex;
+    margin-left: 5%;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.innovationlist-column-list {
+    width: 15%;
+    min-height: 100px;
+    background-color: aquamarine;
+}
+
+.innovationlist-row-list {
+    font-size: 30px;
+    border: 3px solid #ccc;
+    text-align: center;
+    border-radius: 3px;
+    max-width: 80%;
+    background-color: #ddd;
+    margin: 5%;
+}
+
+.innovationlist-row-view {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #a1a1a1;
+    min-height: 100px;
+}
