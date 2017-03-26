@@ -1,0 +1,42 @@
+.main-text {
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+}
+
+.text-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.competition-column-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.sp-img {
+    min-width: 100px;
+    min-height: 50px;
+    max-height: 200px;
+
+}
+p{
+    font-size: 20px;
+    flex: 1;
+}
+
+.next-page {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+}
+
+.competition-row-list {
+    flex: 1;
+    border: 1px solid #a1a1a1;
+    border-radius: 3px;
+    background-color: #1d84e9;
+    min-width: 70px;
+    max-width: 150px;
+    text-align: center;
+}
