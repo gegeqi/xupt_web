@@ -16,8 +16,9 @@ body {
     color: #fff;
 }
 
-.nav > li:nth-child(1){
-    margin-left: 200px;
+.nav-box > ul{
+    width: 740px;
+    margin-left: 17%;
 }
 
 .nav > li > .header-link:hover,

@@ -9,7 +9,7 @@ class Frame_header extends Component {
           <nav className="navbar-fixed-top">
             <div className="nav-box">
               <ul className="nav nav-pills">
-                <li role="presentation"><a href="#" className="header-link">首页</a></li>
+                <li role="presentation"><Link to="/" className="header-link">首页</Link></li>
                 <li role="presentation"><Link to="/newscenter" className="header-link">新闻中心
                 </Link></li>
                 <li role="presentation"><Link to="/elegantShow" className="header-link">风采展示
