@@ -1,16 +1,18 @@
-#bottom{
+#bottom {
     height: 287px;
     width: 100%;
     border: 1px solid green;
     bottom: 0;
 }
-#bottom ul{
-    margin:20px 80px 20px 80px;
+
+#bottom ul {
+    margin: 20px auto;
 }
-#bottom ul li{
+
+#bottom ul li {
     height: 250px;
     width: 250px;
-    margin-right: 20px;
+    margin: 0 10px;
     background-color: yellow;
     float: left;
 }
