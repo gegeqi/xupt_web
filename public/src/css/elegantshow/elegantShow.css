@@ -4,6 +4,7 @@
     flex-direction: row;
     width: 100%;
     background: whitesmoke;
+    padding-top: 50px;
 }
 
 .elegant-slide {
@@ -50,4 +51,8 @@
     max-height: 130px;
     min-height: 100px;
     min-width: 600px;
+}
+
+h3{
+    margin-top: 5px;
 }

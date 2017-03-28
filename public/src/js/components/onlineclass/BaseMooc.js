@@ -11,7 +11,7 @@ export default class BaseMooc extends Component {
                 <div id="left">
                     <ul id="left_ul">
                         <Link to='/onlineclass/erya'>
-                            <li class="left1" data-slide="0"><a href="#">网课一链接</a></li>
+                            <li className="left1" data-slide="0"><a href="#">网课一链接</a></li>
                         </Link>
                         <li data-slide="1"><a href="#">网课二链接</a></li>
                         <li data-slide="2"><a href="#">网课三链接</a></li>

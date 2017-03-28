@@ -1,10 +1,9 @@
 .index-page {
-  background-color: #eaeaea;
+    background-color: #eaeaea;
 }
 
-#news{
-  width: 80%;
-  margin: 20px auto;
-  border: dashed;
+#news {
+    width: 80%;
+    margin: 20px auto;
+    border: dashed;
 }
-

@@ -2,6 +2,8 @@
     width: 100%;
     border: 1px solid #000;
     height: 750px;
+    position: absolute;
+    top: 40px;
 }
 #top_header{
     position: relative;
