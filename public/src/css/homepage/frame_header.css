@@ -5,7 +5,7 @@ body {
     color: #000;
 }
 
-.nav-box{
+.nav-box {
     background-color: #5e5e5e;
 }
 
@@ -16,14 +16,43 @@ body {
     color: #fff;
 }
 
-.nav-box > ul{
+.nav-box > ul {
     width: 740px;
     margin-left: 17%;
 }
 
-.nav > li > .header-link:hover,
+.nav > li > .header-link:hover {
+    background-color: #71ad59;
+    position: relative;
+}
+
 .nav > li > .header-link:focus {
     text-decoration: none;
     background-color: #52d029;
 }
 
+.nav > li > ul {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+}
+
+.nav > li:hover > ul {
+    display: block;
+}
+
+.nav > li > ul > li {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.nav > li > ul > li:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
