@@ -65,11 +65,8 @@ class Frame_header extends Component {
                 <li role="presentation"><Link to="#" className="header-link">登录</Link>
                 </li>
               </ul>
+                </div>
+              </nav>
             </div>
-          </nav>
-        </div>
-    );
-  }
-
-}
+    )}};
 module.exports = Frame_header;

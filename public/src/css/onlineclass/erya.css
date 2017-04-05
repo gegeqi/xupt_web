@@ -45,6 +45,9 @@
     margin:20px auto;
     width: 1150px;
 }
+#container ul{
+    margin:10px 36px;
+}
 #container ul li{
     list-style-type: none;
     float: left;
@@ -53,4 +56,15 @@
     background-color: pink;
     margin-right: 15px;
     margin-bottom: 15px;
+}
+#alert{
+    width: 554px;
+    height:303px;
+    margin:80px 359px;
+    background-color:#ffffff;
+    position: absolute;
+}
+#alert h4{
+    text-align:center;
+    line-height:20px;
 }
