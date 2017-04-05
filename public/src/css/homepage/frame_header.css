@@ -1,18 +1,19 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-size: 14px;
+    font-size: 17px;
     color: #000;
 }
 
 .nav-box {
-    background-color: #5e5e5e;
+    background-color: #A3A6A9;
+    opacity: 0.8;
 }
 
 .nav > li > .header-link {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    padding: 10px 10px;
     color: #fff;
 }
 
