@@ -1,0 +1,58 @@
+.elegant {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: whitesmoke;
+    padding-top: 50px;
+}
+
+.elegant-slide {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elegant-container {
+    display: flex;
+    flex: 6;
+    flex-direction: column;
+}
+
+.elegant-slide ul li {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 5px;
+    background: #d9edf7;
+    border-radius: 5px;
+    min-width: 110px;
+    min-height: 40px;
+}
+
+.elegant-list-item {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    background: #d9edf7;
+}
+
+.elegant-list-item > div:first-child {
+    width: 100px;
+    height: 120px;
+    background: #dcdcdc;
+    margin: 5px;
+    border-radius: 5px;
+    min-width: 80px;
+    max-width: 100px;
+}
+
+.elegant-list-item > div:last-child {
+    max-height: 130px;
+    min-height: 100px;
+    min-width: 600px;
+}
+
+h3{
+    margin-top: 5px;
+}

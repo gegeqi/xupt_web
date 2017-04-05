@@ -1,0 +1,56 @@
+#main_box{
+    width: 100%;
+    border: 1px solid #000;
+    height: 750px;
+    position: absolute;
+    top: 40px;
+}
+#top_header{
+    position: relative;
+    height: 50px;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 50px;
+}
+#div1{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color: #00FF66 ;
+}
+#div2{
+    position: absolute;
+    margin-left: 40%;
+    width: 30%;
+    height: 100%;
+    background-color: #00FFFF ;
+}
+#div3{
+    position: absolute;
+    margin-left: 70%;
+    width: 15%;
+    height: 100%;
+    background-color: #666699 ;
+}
+#div4{
+    position: absolute;
+    margin-left: 85%;
+    width: 15%;
+    height: 100%;
+    background-color: #99CC99 ;
+}
+#container{
+    height: 660px;
+    border: 1px solid red;
+    margin:20px auto;
+    width: 1150px;
+}
+#container ul li{
+    list-style-type: none;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}

@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "../../../css/telentshow/pioneerCenter.css";
+import "../../../css/elegantshow/pioneerCenter.css";
 
 export default class PioneerCenter extends Component{
     render(){
