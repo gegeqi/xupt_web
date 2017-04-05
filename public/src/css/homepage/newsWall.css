@@ -15,19 +15,11 @@ body{
 }
 
 .XU-hot-news {
-<<<<<<< HEAD
     width: 30%;
-    min-height: 200px;
-    max-height: 225px;
-}
-
-.XU-hot-news {
-    width: 30%;
-=======
-    width:30%;
->>>>>>> upstream/dev
     border: 1px hidden #a1a1a1;
     border-radius: 5px;
+    min-height: 200px;
+    max-height: 225px;
     background: white;
 }
 
