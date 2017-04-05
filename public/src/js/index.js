@@ -49,6 +49,8 @@ render(
                 <Route path='/elegantShow/starTeacher' component={StarTeacher}/>
                 <Route path='/elegantShow/studentMien' component={StudentMien}/>
             </Route>
+
         </Route>
     </Router>,
-    document.getElementById('react-root'));
+    document.getElementById('react-root')
+);
