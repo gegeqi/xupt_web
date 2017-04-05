@@ -9,12 +9,12 @@
 .newsCenter{
     width: 90%;
     height: auto;
-    margin: 40px auto;
+    margin: 60px auto;
     background-color: #c8e5bc;
 }
 
 .newsNavigation{
-    min-height: 400px;
+    min-height: 600px;
     margin: 10px 10px;
     text-align:center;
     background-color: indianred;
@@ -22,7 +22,7 @@
 }
 
 .newsWrap{
-    min-height: 400px;
+    min-height: 600px;
     height: 90%;
     margin: 10px 10px;
     background-color:rgba(199,199,199,0.8);
