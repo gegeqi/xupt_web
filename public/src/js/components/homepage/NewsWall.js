@@ -18,10 +18,24 @@ class NewsWall extends Component {
         con.innerHTML += con.innerHTML;
 
         var timer = setInterval(function () {
+<<<<<<< HEAD
             if (scrollWrap.scrollTop >= con.scrollHeight/2) {
                 scrollWrap.scrollTop = 0;
             }
             scrollWrap.scrollTop += 2;
+=======
+<<<<<<< HEAD
+            if (scrollWrap.scrollTop >= con.scrollHeight/2) {
+                scrollWrap.scrollTop = 0;
+            }
+            scrollWrap.scrollTop += 2;
+=======
+            if (scrollWrap.scrollTop == con.offsetHeight) {
+                scrollWrap.scrollTop = 0;
+            }
+            scrollWrap.scrollTop += 1;
+>>>>>>> upstream/dev
+>>>>>>> upstream/dev
         }, 20);
 
         this.setState({timer, scrollWrap, con});
@@ -36,7 +50,15 @@ class NewsWall extends Component {
         var con = this.state.con;
         var timer = setInterval(function () {
 
+<<<<<<< HEAD
             if (scrollWrap.scrollTop >= con.scrollHeight/2) {
+=======
+<<<<<<< HEAD
+            if (scrollWrap.scrollTop >= con.scrollHeight/2) {
+=======
+            if (scrollWrap.scrollTop == con.offsetHeight) {
+>>>>>>> upstream/dev
+>>>>>>> upstream/dev
                 scrollWrap.scrollTop = 0;
             }
             scrollWrap.scrollTop += 2;
@@ -53,6 +75,10 @@ class NewsWall extends Component {
                     <div className="XU-hot-news-list" ref="scrollWrap" onMouseOver={this.onMouseOver.bind(this)}
                          onMouseOut={this.onMouseOut.bind(this)}>
                         <div ref="con1">
+<<<<<<< HEAD
+                            <div className="hot-news-list hot-news-row1">我校积极参与陕西省地方立法工作...<span
+=======
+<<<<<<< HEAD
                             <div className="hot-news-list hot-news-row1">我校积极参与陕西省地方立法工作...<span
                                 className="hot-news-row-span">3-28</span>
                             </div>
@@ -69,7 +95,30 @@ class NewsWall extends Component {
                                 className="hot-news-row-span">3-28</span>
                             </div>
                             <div className="hot-news-list hot-news-row6">我校积极参与陕西省地方立法工作...<span
+=======
+                            <div className="hot-news-list hot-news-row1">新闻001,新闻001,新闻001<span
+>>>>>>> upstream/dev
+                                className="hot-news-row-span">3-28</span>
+                            </div>
+                            <div className="hot-news-list hot-news-row2">我校积极参与陕西省地方立法工作...<span
+                                className="hot-news-row-span">3-28</span>
+                            </div>
+                            <div className="hot-news-list hot-news-row3">我校积极参与陕西省地方立法工作...<span
+                                className="hot-news-row-span">3-28</span>
+                            </div>
+                            <div className="hot-news-list hot-news-row4">我校积极参与陕西省地方立法工作...<span
+                                className="hot-news-row-span">3-28</span>
+                            </div>
+                            <div className="hot-news-list hot-news-row5">我校积极参与陕西省地方立法工作...<span
+                                className="hot-news-row-span">3-28</span>
+                            </div>
+<<<<<<< HEAD
+                            <div className="hot-news-list hot-news-row6">我校积极参与陕西省地方立法工作...<span
 
+=======
+                            <div className="hot-news-list hot-news-row6">新闻001,新闻001,新闻006<span
+>>>>>>> upstream/dev
+>>>>>>> upstream/dev
                                 className="hot-news-row-span">3-28</span>
                             </div>
                         </div>
@@ -81,6 +130,10 @@ class NewsWall extends Component {
                     <div className="view-box-p">通知公告</div>
                     <img className="hot-notice-img" src=""/>
                     <div className="XU-hot-notice-list">
+<<<<<<< HEAD
+                        <div className="hot-news-list hot-notice-row1">我校积极参与陕西省地方立法工作...<span
+=======
+<<<<<<< HEAD
                         <div className="hot-news-list hot-notice-row1">我校积极参与陕西省地方立法工作...<span
                             className="hot-news-row-span">3-28</span></div>
                         <div className="hot-news-list hot-notice-row2">我校积极参与陕西省地方立法工作...<span
@@ -92,7 +145,25 @@ class NewsWall extends Component {
                         <div className="hot-news-list hot-notice-row5">我校积极参与陕西省地方立法工作...<span
                             className="hot-news-row-span">3-28</span></div>
                         <div className="hot-news-list hot-notice-row6 hot-last-view">我校积极参与陕西省地方立法工作...<span
+=======
+                        <div className="hot-news-list hot-notice-row1">我是通知公告,yee!!我是通知公告,yee!!<span
+>>>>>>> upstream/dev
+                            className="hot-news-row-span">3-28</span></div>
+                        <div className="hot-news-list hot-notice-row2">我校积极参与陕西省地方立法工作...<span
+                            className="hot-news-row-span">3-28</span></div>
+                        <div className="hot-news-list hot-notice-row3">我校积极参与陕西省地方立法工作...<span
+                            className="hot-news-row-span">3-28</span></div>
+                        <div className="hot-news-list hot-notice-row4">我校积极参与陕西省地方立法工作...<span
+                            className="hot-news-row-span">3-28</span></div>
+                        <div className="hot-news-list hot-notice-row5">我校积极参与陕西省地方立法工作...<span
+                            className="hot-news-row-span">3-28</span></div>
+<<<<<<< HEAD
+                        <div className="hot-news-list hot-notice-row6 hot-last-view">我校积极参与陕西省地方立法工作...<span
 
+=======
+                        <div className="hot-news-list hot-notice-row6 hot-last-view">我是通知公告,yee!!我是通知公告,yee!!<span
+>>>>>>> upstream/dev
+>>>>>>> upstream/dev
                             className="hot-news-row-span">3-28</span></div>
                     </div>
 
