@@ -66,20 +66,33 @@
     flex-direction: column;
 }
 
-.competition-column-list{
+.competition-column-list {
     display: flex;
+    padding: 10px;
+    border-bottom: 1px dashed #000;
     flex-direction: row;
 }
 
 .sp-img {
-    min-width: 100px;
+    min-width: 150px;
     min-height: 50px;
     max-height: 200px;
 
 }
-p{
+.competition-list-a{
+    display: flex;
+    flex: 0;
+    font-size: 25px;
+    color: #285e8e;
+    min-width: 100px;
+}
+.competition-p{
     font-size: 20px;
     flex: 1;
+}
+.competition-time{
+    display: flex;
+    flex: 0;
 }
 
 .next-page {

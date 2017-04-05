@@ -59,12 +59,14 @@ class HonorWall extends Component {
         });
 
         return (
-            <div id="honorWall">
-                <div id="honorwrap">
-                    <div id="showImages">
-                        {honorImages}
+            <div id="honor">
+                <div id="honorWall">
+                    <div id="honorwrap">
+                        <div id="showImages">
+                            {honorImages}
+                        </div>
+                        <div id="copyImages1" className="copyImage"></div>
                     </div>
-                    <div id="copyImages1" className="copyImage"></div>
                 </div>
             </div>
     )

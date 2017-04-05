@@ -28,6 +28,7 @@ body{
 }
 
 .hot-news-img {
+    font-size: 20px;
     margin-bottom: 15px;
     border: 1px solid red;
     min-height: 180px;
@@ -39,7 +40,6 @@ body{
     font-size: 16px;
     min-height: 40px;
     max-height: 120px;
-    overflow: hidden;
 }
 
 .hot-news-row-span{
@@ -49,6 +49,7 @@ body{
 
 .XU-hot-notice{
     width: 30%;
+    font-size: 16px;
     border: 1px hidden #a1a1a1;
     border-radius: 5px;
     background: white;
