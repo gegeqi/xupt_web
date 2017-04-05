@@ -22,11 +22,11 @@ export default class NewsWall extends Component{
                 title: "西安邮电大学运动会顺利举办",
                 date: "2011-06-11"
             }, {title: "西安邮电大学运动会顺利举办", date: "2011-06-11"}, {title: "西安邮电大学运动会顺利举办", date: "2011-06-11"}], //获取数据的存放数组
-            totalNum: '',//总记录数
+            totalNum: null,//总记录数
             current: 1, //当前页码
             pageSize: 5, //每页显示的条数5条
             newsList: [],
-            totalPage: '',//总页数
+            totalPage: null,//总页数
         }
     }
 
@@ -86,10 +86,22 @@ export default class NewsWall extends Component{
         this.setState({current, newsList});
     }
 
+    chooseFirstPage() {
+        var current = 1;
+        const newsList = this.generateNewsList(current, this.state.allNews, this.state.pageSize);
+        this.setState({current, newsList});
+    }
+
+    chooseLastPage() {
+        var current = this.state.totalPage;
+        const newsList = this.generateNewsList(current, this.state.allNews, this.state.pageSize);
+        this.setState({current, newsList});
+    }
+
 
     render() {
         const pageList = this.state.newsList.map((ele, index)=> {
-            return <div key={index}>
+            return <div key={index} className="news_link">
                 <Link to="/newscenter/admission">
                     <div className="news row">
                         <div className="newsTitle col-md-9">{ele.title}</div>
@@ -110,27 +122,46 @@ export default class NewsWall extends Component{
 
         return (
             <div className="newsWrap row">
-                <div className="col-md-12">
+                <div className="col-md-12 pageList">
                     {pageList}
                 </div>
-                <div className="foot">
-                    <nav aria-label="Page navigation">
-                        <div className="pagination" onClick={this.chooseBeforePage.bind(this)}>
-                        <li>
-                            <a href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li></div>
-
-                        {pageNumbers}
-                        <div className="pagination" onClick={this.chooseAfterPage.bind(this)}>
-                        <li>
-                            <a href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
-                        </li></div>
-
-                    </nav>
+                <div className="pageFoot">
+                    <div className="pageFootLeft">
+                        <nav>
+                            <div className="pagination">
+                                <li onClick={this.chooseFirstPage.bind(this)}>
+                                    <a href="#">
+                                        <span>首页</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div className="pagination" onClick={this.chooseBeforePage.bind(this)}>
+                                <li>
+                                    <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                            </div>
+                            {pageNumbers}
+                            <div className="pagination" onClick={this.chooseAfterPage.bind(this)}>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </div>
+                            <div className="pagination">
+                                <li onClick={this.chooseLastPage.bind(this)}>
+                                    <a href="#">
+                                        <span aria-hidden="true">末页</span>
+                                    </a>
+                                </li>
+                            </div>
+                        </nav>
+                    </div>
+                    <div className="pageMessage">
+                        共{this.state.totalPage}页{this.state.totalNum}条
+                    </div>
                 </div>
             </div>
         )
