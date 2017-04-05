@@ -21,7 +21,7 @@ class NewsWall extends Component {
             if (scrollWrap.scrollTop == con.offsetHeight) {
                 scrollWrap.scrollTop = 0;
             }
-            scrollWrap.scrollTop += 1;
+            scrollWrap.scrollTop += 2;
         }, 20);
 
         this.setState({timer, scrollWrap, con});
