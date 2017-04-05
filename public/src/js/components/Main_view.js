@@ -4,7 +4,7 @@ class Main_view extends Component{
 
     render() {
         return(
-            <div>
+            <div style={{backgroundColor:'#F2ECD4'}}>
                 <Frame_header/>
                 {this.props.children}
             </div>

@@ -1,39 +1,74 @@
+.newsNavigation a{
+    font-size: 23px;
+    font-family: "宋体";
+    font-weight: 200;
+    color: #000;
+    text-decoration: none;
+}
+
+.newsNavigation a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
 .newsNavigation a li{
     list-style: none;
     padding: 10px 20px;
-    margin: 5px;
-    background-color: #bbb;
+    border-bottom: 1px solid #1b1ee7;
+}
+
+.newsNavigation a li:hover{
+    background-color: rgba(195, 197, 112, 0.65);
     border-radius: 5px;
 }
 
 .newsCenter{
     width: 90%;
     height: auto;
-    margin: 60px auto;
-    background-color: #c8e5bc;
+    padding-top: 60px;
+    margin: 0 auto;
 }
 
 .newsNavigation{
     min-height: 600px;
-    margin: 10px 10px;
+    margin: 10px 0;
     text-align:center;
-    background-color: indianred;
-    border-radius: 5px;
+    border-right: 1px solid midnightblue;
 }
 
 .newsWrap{
     min-height: 600px;
     height: 90%;
     margin: 10px 10px;
-    background-color:rgba(199,199,199,0.8);
+    background-color:#fff;
     border-radius: 5px;
     position: relative;
 }
 
+.pageList{
+    margin-top: 20px;
+}
+
+.news_link a{
+    color: #000;
+    text-decoration: none;
+}
+
+.news_link a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
 .news{
-    margin: 5px auto;
-    background-color: pink;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-bottom: 1px dashed lightgray;
     border-radius: 5px;
+}
+
+.news:hover{
+    background-color: rgba(195, 197, 112, 0.45);
+    border-bottom: 1px dashed gray;
 }
 
 .newsTitle{
@@ -46,10 +81,23 @@
     padding:2px 2px;
 }
 
-.foot{
+.pageFoot{
     position: absolute;
     bottom: 5px;
     margin-left: 35%;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.pageFootLeft{
+    float: left;
+}
+
+.pageMessage{
+    float: left;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding: 7px;
 }
 
 .admissionArticle{
