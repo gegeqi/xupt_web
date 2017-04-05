@@ -12,15 +12,15 @@ export default class InnovationList extends Component {
                     <div className="innovationlist-column-list">
                         <div className="innovationlist-row-list"><IndexLink to="/innovationdata"
                                                                             activeStyle={{color: 'blue'}}>
-                            竞赛项目
+                            竞赛数据
                         </IndexLink></div>
                         <div className="innovationlist-row-list"><Link to="/innovationdata/incubation"
                                                                        activeStyle={{color: 'blue'}}>
-                            孵化项目
+                            孵化数据
                         </Link></div>
                         <div className="innovationlist-row-list"><Link to="/innovationdata/awarditems"
                                                                        activeStyle={{color: 'blue'}}>
-                            获奖项目
+                            森图数据
                         </Link></div>
                         <div className="innovationlist-row-list">项目x</div>
                     </div>
