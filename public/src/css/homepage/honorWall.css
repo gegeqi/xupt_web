@@ -1,0 +1,78 @@
+#honorWall{
+    width:100%;
+    background-color: #d4d4d4;
+    margin-bottom:50px;
+    border: 1px dashed #CCC;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.honorImage{
+    float: left;
+    margin: 20px 20px;
+    box-shadow: 3px;
+}
+
+.honorImage > a > img{
+    width: 250px;
+    height: 200px;
+    border: 2px solid #F2F2F2;
+}
+
+.honorli{
+    position: relative;
+    left:0;
+    animation: lb 15s cubic-bezier(0.3,0.4,0.3,1) 0s infinite;
+    -webkit-animation:lb 15s infinite;
+}
+
+#honorwrap {
+    width: 800%;
+}
+
+#showImages {
+    float: left;
+}
+
+#copyImages1 {
+    float: left;
+}
+
+#tooltip{
+    position:absolute;
+    border:1px solid #ccc;
+    background:#333;
+    padding:2px;
+    display:none;
+    color:#fff;
+}
+
+@keyframes lb {
+    0%{
+        left: 0;
+    }
+    15%{
+        left: 0;
+    }
+    25%{
+        left: -10%;
+    }
+    35%{
+        left: -25%;
+    }
+    55%{
+        left: -45%;
+    }
+    70%{
+        left: -65%;
+    }
+    85%{
+        left: -85%;
+    }
+    95%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
