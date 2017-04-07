@@ -13,6 +13,7 @@
 }
 
 .innovationlist-row-list {
+<<<<<<< HEAD
     padding: 10px;
     margin-top: 5px;
 }
@@ -30,13 +31,33 @@
 .innovationlist-row-list > a:hover, a:visited {
     background-color: #A3A6A9;
     border-radius: 5px;
+=======
+    font-family: "AR PL UKai CN";
+    font-size: 30px;
+    border-bottom: 1px solid #2b542c;
+    text-align: center;
+    color: #000;
+    max-width: 80%;
+    margin: 3%;
+}
+
+.innovationlist-row-list:hover{
+    border:1px hidden #000;
+    border-radius: 5px;
+    background-color:#d5d5d5;
+    opacity: .8;
+>>>>>>> upstream/dev
 }
 
 .innovationlist-row-view {
     flex: 1;
     border: 1px hidden #ccc;
     border-radius: 3px;
+<<<<<<< HEAD
     background-color: white;
+=======
+    background-color: whitesmoke;
+>>>>>>> upstream/dev
     min-height: 100px;
 }
 
@@ -56,14 +77,21 @@
 }
 
 .navigation-row {
+<<<<<<< HEAD
     flex: 1;
     flex-direction: row;
     margin: 15px;
+=======
+    flex-direction: row;
+    border: 3px solid #dddddd;
+    flex: 1;
+>>>>>>> upstream/dev
     min-height: 40px;
     max-height: 60px;
     text-align: center;
     font-family: "AR PL UKai CN";
     font-size: 17px;
+<<<<<<< HEAD
 }
 
 .navigation-row > select {
@@ -73,6 +101,9 @@
     -webkit-appearance: none;
     background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
     padding-right: 14px;
+=======
+    background-color: #a1a1a1;
+>>>>>>> upstream/dev
 }
 
 .main-text {
@@ -119,7 +150,11 @@
     flex: 0;
 }
 
+<<<<<<< HEAD
 .competition-time > span {
+=======
+.competition-time>span{
+>>>>>>> upstream/dev
     margin-left: 5px;
     color: #0F6;
 }
@@ -132,8 +167,15 @@
 
 .competition-row-list {
     flex: 1;
+<<<<<<< HEAD
     margin-top: 10px;
     background-color: white;
+=======
+    border: 1px solid #a1a1a1;
+    border-radius: 3px;
+    background-color: #1d84e9;
+    margin: 10px;
+>>>>>>> upstream/dev
     min-width: 70px;
     max-width: 150px;
     text-align: center;
