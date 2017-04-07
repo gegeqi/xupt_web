@@ -6,37 +6,45 @@
 }
 
 .innovationlist-column-list {
-    width: 15%;
+    width: 13%;
     min-height: 100px;
-    background-color: aquamarine;
+    border-right: 1px solid #669;
+    margin-right: 4%;
 }
 
 .innovationlist-row-list {
+    font-family: "AR PL UKai CN";
     font-size: 30px;
-    border: 3px solid #ccc;
+    border-bottom: 1px solid #2b542c;
     text-align: center;
-    border-radius: 3px;
+    color: #000;
     max-width: 80%;
-    background-color: #ddd;
-    margin: 5%;
+    margin: 3%;
+}
+
+.innovationlist-row-list:hover{
+    border:1px hidden #000;
+    border-radius: 5px;
+    background-color:#d5d5d5;
+    opacity: .8;
 }
 
 .innovationlist-row-view {
     flex: 1;
     border: 1px solid #ccc;
     border-radius: 3px;
-    background-color: #a1a1a1;
+    background-color: whitesmoke;
     min-height: 100px;
 }
 
-.navigation-main{
+.navigation-main {
     display: flex;
     width: 90%;
     flex-wrap: wrap;
     margin-left: 5%;
 }
 
-.navigation-img{
+.navigation-img {
     background-color: aquamarine;
     min-height: 200px;
     max-height: 300px;
@@ -44,20 +52,21 @@
     border-radius: 3px;
 }
 
-.navigation-row{
+.navigation-row {
     flex-direction: row;
-    border:3px solid #dddddd;
-    flex:1;
+    border: 3px solid #dddddd;
+    flex: 1;
     min-height: 40px;
     max-height: 60px;
     text-align: center;
-    font-size: 20px;
-    background-color:#a1a1a1;
+    font-family: "AR PL UKai CN";
+    font-size: 17px;
+    background-color: #a1a1a1;
 }
 
 .main-text {
     display: flex;
-    flex:1;
+    flex: 1;
     flex-wrap: wrap;
 }
 
@@ -74,25 +83,34 @@
 }
 
 .sp-img {
-    min-width: 150px;
-    min-height: 50px;
-    max-height: 200px;
+    width: 15%;
+    height: 12%;
 
 }
-.competition-list-a{
+
+.competition-list-a {
     display: flex;
     flex: 0;
-    font-size: 25px;
+    font-family: "AR PL UKai CN";
+    font-size: 17px;
     color: #285e8e;
     min-width: 100px;
 }
-.competition-p{
-    font-size: 20px;
+
+.competition-p {
+    font-family: "AR PL UKai CN";
+    font-size: 17px;
     flex: 1;
 }
-.competition-time{
+
+.competition-time {
     display: flex;
     flex: 0;
+}
+
+.competition-time>span{
+    margin-left: 5px;
+    color: #0F6;
 }
 
 .next-page {
@@ -106,6 +124,7 @@
     border: 1px solid #a1a1a1;
     border-radius: 3px;
     background-color: #1d84e9;
+    margin: 10px;
     min-width: 70px;
     max-width: 150px;
     text-align: center;
