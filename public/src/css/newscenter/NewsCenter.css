@@ -22,9 +22,12 @@
     border-radius: 5px;
 }
 
+.topRotation{
+    padding:23px 0;
+}
+
 .newsCenter{
     width: 90%;
-    padding-top: 60px;
     margin: 0 auto;
 }
 

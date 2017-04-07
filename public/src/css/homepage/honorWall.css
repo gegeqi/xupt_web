@@ -20,8 +20,8 @@
 .honorli{
     position: relative;
     left:0;
-    animation: lb 15s cubic-bezier(0.3,0.4,0.3,1) 0s infinite;
-    -webkit-animation:lb 15s infinite;
+    animation: lb 25s cubic-bezier(1,1,0,0) 0s infinite;
+    -webkit-animation:lb 25s cubic-bezier(1,1,0,0) 0s infinite;
 }
 
 #honorwrap1 {
