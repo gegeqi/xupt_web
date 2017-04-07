@@ -12,15 +12,15 @@ a{
     position: relative;
     width: 100%;
     height:410px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin-top:40px;     /*直接写 top:40px; 有BUG,因为：对于相对定义元素，如果 top 和 bottom 都是 auto，其计算值则都是 0；如果其中之一为 auto，则取另一个值的相反数；如果二者都不是 auto，bottom 将取 top 值的相反数。*/
 }
 #left{
     position: absolute;
-    width: 30%;
+    width: 20%;
     height: 410px;
-    border: 1px solid yellow;
-    background-color: #CCCCCC;
+    /*border: 1px solid yellow;*/
+    /*background-color: #FFFFFF;*/
 }
 #left ul{
     margin: 30px 20%;
@@ -28,17 +28,22 @@ a{
 }
 #left ul li{
     height: 50px;
-    background-color: #FF3366;
+    /*background-color: #FF3366;*/
     margin-bottom: 10px;
     text-align: center;
     line-height: 50px;
     font-size: 20px;
     border: 1px solid green;
+    border-radius: 15px;
+}
+#left ul li a{
+    color: #000;
+    font-size:16px;
 }
 #right{
     position: absolute;
     height: 410px;
-    width: 70%;
-    border: 1px solid red;
+    width: 80%;
+    /*border: 1px solid red;*/
     right: 0;
 }
