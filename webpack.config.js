@@ -18,6 +18,10 @@ let configs = {
     module: {
         loaders: [
             {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=8192&name=images/[name].[ext]'
+            },
+            {
                 test: /\.css$/,
                 loaders: ['style-loader', 'css-loader']
             }, {  // es6配置
