@@ -22,7 +22,7 @@ class NewsWall extends Component {
                 scrollWrap.scrollTop = 0;
             }
             scrollWrap.scrollTop += 2;
-        }, 20);
+        }, 30);
 
         this.setState({timer, scrollWrap, con});
     }
@@ -40,7 +40,7 @@ class NewsWall extends Component {
                 scrollWrap.scrollTop = 0;
             }
             scrollWrap.scrollTop += 2;
-        }, 20);
+        }, 30);
         this.setState({timer})
     }
 
