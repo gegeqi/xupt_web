@@ -19,7 +19,7 @@ export default class Erya extends Component{
                     <div className="clearfix types-content">
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color green">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -42,7 +42,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color green">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -65,7 +65,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color green">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -88,7 +88,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color green">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -111,7 +111,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color green">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -134,7 +134,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color orange">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -157,7 +157,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color orange">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -180,7 +180,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color orange">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -203,7 +203,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color orange">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
@@ -226,7 +226,7 @@ export default class Erya extends Component{
 
                         <div className="index-card-container course-card-container container ">
                             <a target="_blank" className="course-card" href="" data-track="mfhk-1-5">
-                                <div className="course-card-top cart-color purple">
+                                <div className="course-card-top cart-color orange">
                                     <i className="imv2-war"></i>
                                     <span>JavaScript</span>
                                     <span>CSS3</span>
