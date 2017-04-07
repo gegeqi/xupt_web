@@ -1,48 +1,37 @@
-#honorWall1{
-    width:80%;
-    float: right;
-    margin-right:50px;
+#rotationWall{
     overflow: hidden;
     zoom: 1;
 }
 
-.honorImage{
+.rotationImage{
     float: left;
     margin: 20px 20px;
+    box-shadow: 3px;
 }
 
-.honorImage > a > img{
+.rotationImage > a > img{
     width: 250px;
     height: 200px;
     border: 2px solid #F2F2F2;
 }
 
-.honorli{
+.rotationLi{
     position: relative;
     left:0;
     animation: lb 15s cubic-bezier(0.3,0.4,0.3,1) 0s infinite;
     -webkit-animation:lb 15s infinite;
 }
 
-#honorwrap1 {
+#rotationWrap {
     width: 800%;
 }
 
-#showImages1 {
+#showImages {
     float: left;
 }
 
-#copyImages1 {
+#copyImages {
     float: left;
-}
-
-#tooltip1{
-    position:absolute;
-    border:1px solid #ccc;
-    background:#333;
-    padding:2px;
-    display:none;
-    color:#fff;
 }
 
 @keyframes lb {
