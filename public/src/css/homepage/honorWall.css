@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #honor{
     background-image: url(../../../image/honorWall.jpg);
     overflow: hidden;
@@ -10,13 +9,6 @@
     width:80%;
     float: right;
     margin-right:50px;
-=======
-#honorWall{
-    width:100%;
-    background-color: #d4d4d4;
-    margin-bottom:50px;
-    border: 1px dashed #CCC;
->>>>>>> upstream/master
     overflow: hidden;
     zoom: 1;
 }
@@ -28,13 +20,8 @@
 }
 
 .honorImage > a > img{
-<<<<<<< HEAD
     width: 200px;
     height: 150px;
-=======
-    width: 250px;
-    height: 200px;
->>>>>>> upstream/master
     border: 2px solid #F2F2F2;
 }
 

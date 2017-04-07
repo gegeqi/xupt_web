@@ -6,12 +6,8 @@ body {
 }
 
 .nav-box {
-<<<<<<< HEAD
     background-color: #A3A6A9;
     opacity: .8;
-=======
-    background-color: #5e5e5e;
->>>>>>> upstream/master
 }
 
 .nav > li > .header-link {
@@ -34,7 +30,6 @@ body {
 .nav > li > .header-link:focus {
     text-decoration: none;
     background-color: #52d029;
-<<<<<<< HEAD
 
 }
 
@@ -58,39 +53,9 @@ body {
     white-space: nowrap;
 }
 
-=======
-<<<<<<< HEAD
-=======
-}
-
-.nav > li > ul {
-    display: none;
-    position: absolute;
-    background-color: #FFF;
-}
-
-.nav > li:hover > ul {
-    display: block;
-}
-
-.nav > li > ul > li {
-    display: block;
-    padding: 3px 20px;
-    clear: both;
-    font-weight: normal;
-    line-height: 1.42857143;
-    color: #333;
-    white-space: nowrap;
-}
-
->>>>>>> upstream/master
 .nav > li > ul > li:hover {
     color: #262626;
     text-decoration: none;
     background-color: #f5f5f5;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> upstream/dev
->>>>>>> upstream/master
 }

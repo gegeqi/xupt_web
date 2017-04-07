@@ -7,11 +7,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-<<<<<<< HEAD
     padding-top: 50px;
-=======
-    margin-top: 50px;
->>>>>>> upstream/master
 }
 
 .elegant-slide {
@@ -19,13 +15,8 @@ body {
     flex: 1;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
     padding: 0 20px;
     margin-top: 30px;
-=======
-    padding:0 20px;
-    margin-top:30px;
->>>>>>> upstream/master
     border-right: 1px solid blue;
     height: 100%;
 }
@@ -68,20 +59,12 @@ ul > .link-style {
 }
 
 ul > .link-style :hover, ul > .link-style :focus {
-<<<<<<< HEAD
     background-color: rgba(218, 220, 192, 0.5);
-=======
-    background-color: rgba(218,220,192, 0.5);
->>>>>>> upstream/master
 }
 
 ul .active {
     display: block;
-<<<<<<< HEAD
     background-color: #DADCC0;
-=======
-    background-color:#DADCC0;
->>>>>>> upstream/master
     border-radius: 8px;
 }
 
@@ -119,7 +102,6 @@ ul .active {
     min-height: 100px;
     min-width: 600px;
     color: dimgrey;
-<<<<<<< HEAD
 }
 
 h3 {
@@ -131,17 +113,3 @@ h3 {
 time {
     color: green;
 }
-
-=======
-}
-
-h3 {
-    margin-top: 8px;
-    margin-bottom: 2px;
-    color: blue;
-}
-
-time {
-    color: green;
-}
->>>>>>> upstream/master
