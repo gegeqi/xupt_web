@@ -1,15 +1,13 @@
 import React, {Component} from "react";
 import "../../css/common.css";
 
-export default class Fenye extends Component {
+export default class Pagination extends Component {
 
   constructor() {
     super();
     this.state = {
-      list: [],
       totalNum: null,//总记录数
       current: 1, //当前页码
-      pageSize: 5, //每页显示的条数5条
       newList: [],
       totalPage: null,//总页数
     }
@@ -18,9 +16,9 @@ export default class Fenye extends Component {
   componentWillMount() {
     var list = this.props.list;
     var totalNum = list.length;
-    var totalPage = Math.ceil(totalNum / this.state.pageSize);
+    var totalPage = Math.ceil(totalNum / this.props.pageSize);
 
-    const newList = this.generateNewsList(this.state.current, list, this.state.pageSize);
+    const newList = this.generateNewsList(this.state.current, list, this.props.pageSize);
 
     this.setState({totalNum, totalPage, newList});
   }
@@ -49,7 +47,7 @@ export default class Fenye extends Component {
 
   changeCurrent(index) {
     const current = index;
-    const newList = this.generateNewsList(current, this.props.list, this.state.pageSize);
+    const newList = this.generateNewsList(current, this.props.list, this.props.pageSize);
     this.setState({current, newList});
   }
 
@@ -58,7 +56,7 @@ export default class Fenye extends Component {
     if (current > 1) {
       current -= 1;
     }
-    const newList = this.generateNewsList(current, this.props.list, this.state.pageSize);
+    const newList = this.generateNewsList(current, this.props.list, this.props.pageSize);
     this.setState({current, newList});
   }
 
@@ -68,19 +66,19 @@ export default class Fenye extends Component {
     if (current < totalPage) {
       current += 1;
     }
-    const newList = this.generateNewsList(current, this.props.list, this.state.pageSize);
+    const newList = this.generateNewsList(current, this.props.list, this.props.pageSize);
     this.setState({current, newList});
   }
 
   chooseFirstPage() {
     var current = 1;
-    const newList = this.generateNewsList(current, this.props.list, this.state.pageSize);
+    const newList = this.generateNewsList(current, this.props.list, this.props.pageSize);
     this.setState({current, newList});
   }
 
   chooseLastPage() {
     var current = this.state.totalPage;
-    const newList = this.generateNewsList(current, this.props.list, this.state.pageSize);
+    const newList = this.generateNewsList(current, this.props.list, this.props.pageSize);
     this.setState({current, newList});
   }
 
@@ -106,7 +104,7 @@ export default class Fenye extends Component {
           <div className={this.props.listStyle}>
             {pageList}
           </div>
-          <div className="middle">
+          <div className="pagination-middle">
             <nav className="Page navigation">
               <div className="pagination">
                 <li onClick={this.chooseFirstPage.bind(this)}>
@@ -135,6 +133,11 @@ export default class Fenye extends Component {
                   <a href="#">
                     <span aria-hidden="true">末页</span>
                   </a>
+                </li>
+              </div>
+              <div className="pagination">
+                <li className="page-message">
+                    <span aria-hidden="true">共{this.state.totalPage}页{this.state.totalNum}条</span>
                 </li>
               </div>
             </nav>
