@@ -48,8 +48,13 @@ export default class InnovationCommunities extends Component {
 
   render() {
 
+<<<<<<< HEAD
     const item = function (item) {
       return <div className="elegant-list-item">
+=======
+    const item = this.state.allItems.map((item, index) => {
+      return <div key={index} className="elegant-list-item">
+>>>>>>> upstream/master
         <div><img src={"../../../../image/article-icon/" + item.image} alt="little image"/></div>
         <div>
           <h3>{item.title}</h3>

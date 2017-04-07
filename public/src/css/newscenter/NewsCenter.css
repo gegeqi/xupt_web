@@ -24,13 +24,23 @@
 
 .newsCenter{
     width: 90%;
+<<<<<<< HEAD
     padding-top: 60px;
     margin: 0 auto;
+=======
+    height: auto;
+    margin: 60px auto;
+    background-color: #c8e5bc;
+>>>>>>> upstream/master
 }
 
 .newsNavigation{
     min-height: 600px;
+<<<<<<< HEAD
     margin: 10px 0;
+=======
+    margin: 10px 10px;
+>>>>>>> upstream/master
     text-align:center;
     border-right: 1px solid midnightblue;
 }

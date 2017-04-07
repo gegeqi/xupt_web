@@ -31,7 +31,11 @@ class HonorWall extends Component {
                 this.myTitle = this.title;
                 this.title = "";
                 var imgTitle = this.myTitle ? "<br/>" + this.myTitle : "";
+<<<<<<< HEAD
                 var tooltip = "<div id='tooltip'><img src='"+ $(this).attr("src") +"' width='300px' height='200px' alt='产品预览图'/>"+imgTitle+"<\/div>"; //创建 div 元素
+=======
+                var tooltip = "<div id='tooltip'><img src='"+ $(this).attr("src") +"' width='500px' height='300px' alt='产品预览图'/>"+imgTitle+"<\/div>"; //创建 div 元素
+>>>>>>> upstream/master
                 $("body").append(tooltip);	//把它追加到文档中
                 $("#tooltip")
                     .css({
@@ -59,6 +63,7 @@ class HonorWall extends Component {
         });
 
         return (
+<<<<<<< HEAD
             <div id="honor">
                 <div id="honorWall">
                     <div id="honorwrap">
@@ -67,6 +72,14 @@ class HonorWall extends Component {
                         </div>
                         <div id="copyImages1" className="copyImage"></div>
                     </div>
+=======
+            <div id="honorWall">
+                <div id="honorwrap">
+                    <div id="showImages">
+                        {honorImages}
+                    </div>
+                    <div id="copyImages1" className="copyImage"></div>
+>>>>>>> upstream/master
                 </div>
             </div>
     )
