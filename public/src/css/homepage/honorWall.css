@@ -1,8 +1,14 @@
+#honor{
+    background-image: url(../../../image/honorWall.jpg);
+    overflow: hidden;
+    zoom: 1;
+    margin:20px 50px;
+}
+
 #honorWall{
-    width:100%;
-    background-color: #d4d4d4;
-    margin-bottom:50px;
-    border: 1px dashed #CCC;
+    width:80%;
+    float: right;
+    margin-right:50px;
     overflow: hidden;
     zoom: 1;
 }
@@ -14,8 +20,8 @@
 }
 
 .honorImage > a > img{
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     border: 2px solid #F2F2F2;
 }
 

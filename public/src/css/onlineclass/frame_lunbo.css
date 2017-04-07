@@ -1,4 +1,7 @@
-#carousel-example-generic img{
+#myCarousel img{
     width:100%;
     height:410px
+}
+#wrap_bg{
+    margin-top: 0px;
 }

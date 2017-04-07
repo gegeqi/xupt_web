@@ -1,9 +1,13 @@
+body {
+    background-color: #f2ecd4;
+}
+
 .elegant {
     position: relative;
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .elegant-slide {
@@ -11,8 +15,8 @@
     flex: 1;
     flex-direction: column;
     align-items: center;
-    padding:0 20px;
-    margin-top:30px;
+    padding: 0 20px;
+    margin-top: 30px;
     border-right: 1px solid blue;
     height: 100%;
 }
@@ -21,6 +25,13 @@
     display: flex;
     flex: 6;
     flex-direction: column;
+}
+
+.elegant-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .elegant-slide ul li {
@@ -48,12 +59,12 @@ ul > .link-style {
 }
 
 ul > .link-style :hover, ul > .link-style :focus {
-    background-color: rgba(218,220,192, 0.5);
+    background-color: rgba(218, 220, 192, 0.5);
 }
 
 ul .active {
     display: block;
-    background-color:#DADCC0;
+    background-color: #DADCC0;
     border-radius: 8px;
 }
 
