@@ -1,4 +1,4 @@
-#honorWall{
+#honorWall1{
     width:80%;
     float: right;
     margin-right:50px;
@@ -25,11 +25,11 @@
     -webkit-animation:lb 15s infinite;
 }
 
-#honorwrap {
+#honorwrap1 {
     width: 800%;
 }
 
-#showImages {
+#showImages1 {
     float: left;
 }
 
@@ -37,7 +37,7 @@
     float: left;
 }
 
-#tooltip{
+#tooltip1{
     position:absolute;
     border:1px solid #ccc;
     background:#333;
