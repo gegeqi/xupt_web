@@ -1,9 +1,12 @@
+body {
+    background-color: #f2ecd4;
+}
+
 .elegant {
     position: relative;
     display: flex;
     flex-direction: row;
     width: 100%;
-    background: whitesmoke;
     padding-top: 50px;
 }
 
@@ -12,6 +15,10 @@
     flex: 1;
     flex-direction: column;
     align-items: center;
+    padding: 0 20px;
+    margin-top: 30px;
+    border-right: 1px solid blue;
+    height: 100%;
 }
 
 .elegant-container {
@@ -21,38 +28,81 @@
 }
 
 .elegant-slide ul li {
+    font-family: "AR PL UKai CN";
+    font-size: 24px;
+    color: #000;
     list-style: none;
-    padding: 10px 20px;
-    margin: 5px;
-    background: #d9edf7;
-    border-radius: 5px;
-    min-width: 110px;
+    padding: 5px 5px 0 5px;
+    margin: 10px 0;
+    text-align: center;
+    min-width: 160px;
     min-height: 40px;
+    border-radius: 8px;
+}
+
+.elegant-slide ul li::after {
+    border: 1px solid blue;
+    content: '';
+    margin-top: 5px;
+    display: block;
+}
+
+ul > .link-style {
+    text-decoration: none;
+}
+
+ul > .link-style :hover, ul > .link-style :focus {
+    background-color: rgba(218, 220, 192, 0.5);
+}
+
+ul .active {
+    display: block;
+    background-color: #DADCC0;
+    border-radius: 8px;
+}
+
+.elegant-list {
+    padding: 10px;
+    margin: 10px 20px 10px 30px;
+    background: white;
 }
 
 .elegant-list-item {
     display: flex;
     flex-direction: row;
-    margin: 5px;
-    background: #d9edf7;
+    border-bottom: 1px dashed darkgray;
+
 }
 
 .elegant-list-item > div:first-child {
-    width: 100px;
-    height: 120px;
-    background: #dcdcdc;
-    margin: 5px;
+    max-width: 116px;
+    max-height: 110px;
     border-radius: 5px;
-    min-width: 80px;
-    max-width: 100px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 116px;
+    min-height: 110px;
+}
+
+.elegant-list-item > div:first-child > img {
+    position: absolute;
+    left: -40%;
+    top: -10%;
 }
 
 .elegant-list-item > div:last-child {
-    max-height: 130px;
     min-height: 100px;
     min-width: 600px;
+    color: dimgrey;
 }
 
-h3{
-    margin-top: 5px;
+h3 {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    color: blue;
+}
+
+time {
+    color: green;
 }

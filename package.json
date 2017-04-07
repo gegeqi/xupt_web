@@ -30,6 +30,10 @@
     "react-markdown": "^2.4.6",
     "resolve-url-loader": "^2.0.2",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "sass-loader": "^6.0.3",
+>>>>>>> dev
 =======
     "sass-loader": "^6.0.3",
 >>>>>>> dev
