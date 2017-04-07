@@ -35,7 +35,6 @@
 .wallRotationImage{
     float: left;
     margin: 20px 20px;
-    box-shadow: 3px;
 }
 
 .wallRotationImage > a > img{

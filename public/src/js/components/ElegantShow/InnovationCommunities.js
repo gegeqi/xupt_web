@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import Pagination from "../Pagination";
 export default class InnovationCommunities extends Component {
 
   constructor() {
@@ -42,14 +42,14 @@ export default class InnovationCommunities extends Component {
           time: "2017-10-2",
           image: 'sj_icon_14.png'
         }
-      ]
+      ],
     }
   }
 
   render() {
 
-    const item = this.state.allItems.map((item, index) => {
-      return <div key={index} className="elegant-list-item">
+    const item = function (item) {
+      return <div className="elegant-list-item">
         <div><img src={"../../../../image/article-icon/" + item.image} alt="little image"/></div>
         <div>
           <h3>{item.title}</h3>
@@ -57,13 +57,11 @@ export default class InnovationCommunities extends Component {
           发布时间：
           <time>{item.time}</time>
         </div>
-      </div>
-    });
+      </div>;
+    };
 
     return (
-        <div className="elegant-list">
-          {item}
-        </div>
+            <Pagination list={this.state.allItems} item={item} listStyle="elegant-list"  pageSize="6" />
     )
   }
 }

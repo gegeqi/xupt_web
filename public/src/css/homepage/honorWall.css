@@ -9,7 +9,6 @@
 .honorImage{
     float: left;
     margin: 20px 20px;
-    box-shadow: 3px;
 }
 
 .honorImage > a > img{
