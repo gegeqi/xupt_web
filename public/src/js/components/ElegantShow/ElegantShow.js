@@ -38,5 +38,4 @@ export default class ElegantShow extends Component {
             </div>
         )
     }
-
 }

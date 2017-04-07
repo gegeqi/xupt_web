@@ -18,8 +18,8 @@
 .rotationLi{
     position: relative;
     left:0;
-    animation: lb 15s cubic-bezier(0.3,0.4,0.3,1) 0s infinite;
-    -webkit-animation:lb 15s infinite;
+    animation: lb 35s cubic-bezier(1,1,0,0) 0s infinite;
+    -webkit-animation:lb 35s cubic-bezier(1,1,0,0) 0s infinite;
 }
 
 #rotationWrap {
@@ -39,7 +39,7 @@
         left: 0;
     }
     15%{
-        left: 0;
+        left: -5%;
     }
     25%{
         left: -10%;
@@ -57,9 +57,9 @@
         left: -85%;
     }
     95%{
-        left: -100%;
+        left: -95%;
     }
     100%{
-        left: 0;
+        left: -100%;
     }
 }
