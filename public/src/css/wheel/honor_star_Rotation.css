@@ -1,4 +1,30 @@
-#honorWall{
+.allWallWrap{
+    background-image: url(../../../image/honorWall.jpg);
+    overflow: hidden;
+    zoom: 1;
+    margin:20px 50px;
+    position: relative;
+}
+
+.wallTile{
+    width: 5%;
+    height:100%;
+    font-family: '楷体';
+    font-size: 5rem;
+    position: absolute;
+    left:5%;
+    line-height: 100%;
+}
+
+#starWallTile{
+    padding: 1rem 0;
+}
+
+#honorWallTile{
+    padding: 5rem 0;
+}
+
+#wallRotationWall{
     width:80%;
     float: right;
     margin-right:50px;
@@ -6,26 +32,26 @@
     zoom: 1;
 }
 
-.honorImage{
+.wallRotationImage{
     float: left;
     margin: 20px 20px;
     box-shadow: 3px;
 }
 
-.honorImage > a > img{
+.wallRotationImage > a > img{
     width: 250px;
     height: 200px;
     border: 2px solid #F2F2F2;
 }
 
-.honorli{
+.wallRotationLi{
     position: relative;
     left:0;
-    animation: lb 15s cubic-bezier(0.3,0.4,0.3,1) 0s infinite;
-    -webkit-animation:lb 15s infinite;
+    animation: lb 20s cubic-bezier(0.3,0.4,0.3,1) 0s infinite;
+    -webkit-animation:lb 20s infinite;
 }
 
-#honorwrap {
+#wallRotationWrap {
     width: 800%;
 }
 
@@ -33,7 +59,7 @@
     float: left;
 }
 
-#copyImages1 {
+#copyImages {
     float: left;
 }
 

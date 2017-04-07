@@ -1,13 +1,13 @@
 import React, {Component} from "react";
-import "../../../css/homepage/honorWall.css";
 
-export default class HonorWall extends Component {
+export default class WallRotation extends Component {
     constructor(props){
         super(props);
     }
+
     componentDidMount(){
         var tab1=document.getElementById("showImages");
-        var tab2=document.getElementById("copyImages1");
+        var tab2=document.getElementById("copyImages");
         tab2.innerHTML=tab1.innerHTML;
         this.makeBigImage();
     }
@@ -16,7 +16,7 @@ export default class HonorWall extends Component {
         $(function(){
             var x = 10;
             var y = 20;
-            $(".honorImage img").mouseover(function(e){
+            $(".wallRotationImage img").mouseover(function(e){
                 this.myTitle = this.title;
                 this.title = "";
                 var imgTitle = this.myTitle ? "<br/>" + this.myTitle : "";
@@ -41,20 +41,20 @@ export default class HonorWall extends Component {
     }
 
     render() {
-        const honorImages = this.props.imagesSrc.map((ele,index)=>{
-            return <div key={index} className="honorli honorImage">
+        const wallRotationImages = this.props.imagesSrc.map((ele,index)=>{
+            return <div key={index} className="wallRotationLi wallRotationImage">
                 <a href="#"><img src={ele.src}/></a>
             </div>
         });
 
         return (
 
-                <div id="honorWall">
-                    <div id="honorwrap">
+                <div id="wallRotationWall">
+                    <div id="wallRotationWrap">
                         <div id="showImages">
-                            {honorImages}
+                            {wallRotationImages}
                         </div>
-                        <div id="copyImages1" className="copyImage"></div>
+                        <div id="copyImages" className="copyImage"></div>
                     </div>
                 </div>
         )

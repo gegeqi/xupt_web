@@ -45,7 +45,7 @@ let configs = {
         new ExtractTextPlugin("[name].css"),
         new webpack.HotModuleReplacementPlugin(), // 热更新插件
     ]
-}
+};
 
 
 module.exports = configs;
