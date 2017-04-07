@@ -27,6 +27,13 @@ body {
     flex-direction: column;
 }
 
+.elegant-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .elegant-slide ul li {
     font-family: "AR PL UKai CN";
     font-size: 24px;
@@ -106,3 +113,4 @@ h3 {
 time {
     color: green;
 }
+

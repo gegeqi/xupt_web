@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {IndexLink, Link} from "react-router";
+
 import "../../../css/elegantshow/elegantShow.css";
 
 export default class ElegantShow extends Component {
@@ -27,7 +28,7 @@ export default class ElegantShow extends Component {
               <Link to="/elegantShow/innovationLab" className="link-style" activeClassName="active">
                 <li>创新实验室</li>
               </Link>
-              <IndexLink to="/elegantShow" className="link-style" activeClassName="active" >
+              <IndexLink to="/elegantShow" className="link-style" activeClassName="active">
                 <li>创新社团</li>
               </IndexLink>
             </ul>
