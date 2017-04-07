@@ -66,12 +66,15 @@ export default class Competition extends Component {
                 </div>
 
                 <div className="next-page">
-                    <div className="row competition-row-list">1</div>
-                    <div className="row competition-row-list">2</div>
-                    <div className="row competition-row-list">3</div>
-                    <div className="row competition-row-list">4</div>
-                    <div className="row competition-row-list">5</div>
-                    <div className="row competition-row-list">></div>
+                    <div className="competition-row-list">首页</div>
+                    <div className="competition-row-list">1</div>
+                    <div className="competition-row-list">2</div>
+                    <div className="competition-row-list">3</div>
+                    <div className="competition-row-list">4</div>
+                    <div className="competition-row-list">5</div>
+                    <div className="competition-row-list">下一页</div>
+                    <div className="competition-row-list">末页</div>
+                    <div className="competition-row-list competition-row-list-last">共<span>10</span>页<span>46</span>条</div>
                 </div>
             </div>
         )

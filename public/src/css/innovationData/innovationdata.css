@@ -13,27 +13,31 @@
 }
 
 .innovationlist-row-list {
-    font-family: "AR PL UKai CN";
-    font-size: 30px;
-    border-bottom: 1px solid #2b542c;
-    text-align: center;
-    color: #000;
-    max-width: 80%;
-    margin: 3%;
+    padding: 10px;
+    margin-top: 5px;
 }
 
-.innovationlist-row-list:hover{
-    border:1px hidden #000;
+.innovationlist-row-list > a {
+    text-decoration: none;
+    font-family: "AR PL UKai CN";
+    border-bottom: 3px solid #2a6496;
+    max-width: 80%;
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.innovationlist-row-list > a:hover, a:visited {
+    background-color: #A3A6A9;
     border-radius: 5px;
-    background-color:#d5d5d5;
-    opacity: .8;
+
 }
 
 .innovationlist-row-view {
     flex: 1;
-    border: 1px solid #ccc;
+    border: 1px hidden #ccc;
     border-radius: 3px;
-    background-color: whitesmoke;
+    background-color: white;
     min-height: 100px;
 }
 
@@ -53,15 +57,23 @@
 }
 
 .navigation-row {
-    flex-direction: row;
-    border: 3px solid #dddddd;
     flex: 1;
+    flex-direction: row;
+    margin: 15px;
     min-height: 40px;
     max-height: 60px;
     text-align: center;
     font-family: "AR PL UKai CN";
     font-size: 17px;
-    background-color: #a1a1a1;
+}
+
+.navigation-row > select {
+    border: 1px hidden #d5d5d5;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+    padding-right: 14px;
 }
 
 .main-text {
@@ -108,7 +120,7 @@
     flex: 0;
 }
 
-.competition-time>span{
+.competition-time > span {
     margin-left: 5px;
     color: #0F6;
 }
@@ -116,18 +128,20 @@
 .next-page {
     display: flex;
     flex-direction: row;
-    margin-left: 35%;
+    margin-left: 20%;
 }
 
 .competition-row-list {
     flex: 1;
-    border: 1px solid #a1a1a1;
-    border-radius: 3px;
-    background-color: #1d84e9;
-    margin: 10px;
+    margin-top: 10px;
+    background-color: white;
     min-width: 70px;
     max-width: 150px;
     text-align: center;
+}
+
+.competition-row-list-last {
+    min-width: 120px;
 }
 
 
