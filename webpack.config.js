@@ -8,7 +8,6 @@ let configs = {
     entry: {
         vendor: ['webpack/hot/dev-server', 'webpack-hot-middleware/client', "./node_modules/bootstrap/dist/css/bootstrap.css"], // 额外插件打包成vender
         index: './public/src/js/index.js',
-        login_register: './public/src/js/login_register.js'
     },
     output: {
         path: require('path').resolve("./public/dist"),
@@ -45,7 +44,7 @@ let configs = {
         new ExtractTextPlugin("[name].css"),
         new webpack.HotModuleReplacementPlugin(), // 热更新插件
     ]
-}
+};
 
 
 module.exports = configs;

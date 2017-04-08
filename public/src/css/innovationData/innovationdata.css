@@ -76,72 +76,61 @@
     padding-right: 14px;
 }
 
-.main-text {
+.innovationlist-row-view {
     display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-}
-
-.text-img {
-    display: flex;
+    flex: 6;
     flex-direction: column;
 }
 
-.competition-column-list {
+.innovationlist-row-view > div {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.competition-list {
     padding: 10px;
-    border-bottom: 1px dashed #000;
-    flex-direction: row;
+    margin: 10px 20px 10px 30px;
+    background: white;
 }
 
-.sp-img {
-    width: 15%;
-    height: 12%;
-
-}
-
-.competition-list-a {
+.competition-list-item {
     display: flex;
-    flex: 0;
-    font-family: "AR PL UKai CN";
-    font-size: 17px;
-    color: #285e8e;
-    min-width: 100px;
+    flex-direction: row;
+    border-bottom: 1px dashed darkgray;
+
 }
 
-.competition-p {
-    font-family: "AR PL UKai CN";
-    font-size: 17px;
-    flex: 1;
+.competition-list-item > div:first-child {
+    max-width: 116px;
+    max-height: 110px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 116px;
+    min-height: 110px;
+}
+
+.competition-list-item > div:first-child > img {
+    position: absolute;
+    left: -40%;
+    top: -10%;
+}
+
+.competition-list-item > div:last-child {
+    min-height: 100px;
+    min-width: 600px;
+    color: dimgrey;
+}
+
+.competition-h3 {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    color: blue;
 }
 
 .competition-time {
-    display: flex;
-    flex: 0;
+    color: green;
 }
-
-.competition-time > span {
-    margin-left: 5px;
-    color: #0F6;
-}
-
-.next-page {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20%;
-}
-
-.competition-row-list {
-    flex: 1;
-    margin-top: 10px;
-    background-color: white;
-    min-width: 70px;
-    max-width: 150px;
-    text-align: center;
-}
-
-.competition-row-list-last {
-    min-width: 120px;
-}
-
-
