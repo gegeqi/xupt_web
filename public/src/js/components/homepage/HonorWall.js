@@ -55,7 +55,6 @@ export default class HonorWall extends Component {
                     <div id="showImages1">
                         {honorImages}
                     </div>
-                    <div id="copyImages1" className="copyImage"></div>
                 </div>
             </div>
         )

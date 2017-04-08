@@ -28,6 +28,10 @@
 
 .newsCenter{
     width: 90%;
+<<<<<<< HEAD
+=======
+    padding-top: 60px;
+>>>>>>> upstream/master
     margin: 0 auto;
 }
 
@@ -41,7 +45,11 @@
 .newsWrap{
     min-height: 600px;
     height: 90%;
+<<<<<<< HEAD
     margin: 10px 10px 80px 10px;
+=======
+    margin: 10px 10px;
+>>>>>>> upstream/master
     background-color:#fff;
     border-radius: 5px;
     position: relative;
