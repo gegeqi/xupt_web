@@ -22,9 +22,12 @@
     border-radius: 5px;
 }
 
+.topRotation{
+    padding:23px 0;
+}
+
 .newsCenter{
     width: 90%;
-    padding-top: 60px;
     margin: 0 auto;
 }
 
@@ -38,7 +41,7 @@
 .newsWrap{
     min-height: 600px;
     height: 90%;
-    margin: 10px 10px;
+    margin: 10px 10px 80px 10px;
     background-color:#fff;
     border-radius: 5px;
     position: relative;
