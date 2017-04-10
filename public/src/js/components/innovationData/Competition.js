@@ -1,82 +1,75 @@
 import React, {Component} from "react";
+import Pagination from "../Pagination";
 
 export default class Competition extends Component {
 
+    constructor() {
+        super();
+        this.state = {
+            allItems: [
+                {
+                    title: "周立波案延迟至6月开庭 他反复强调多说中国人好事",
+                    content: "【周立波持枪持毒案开审，律师到庭后一言不发】周立波持枪持毒案在美国正式开庭审理，如果罪名成立，或将面临2年以上徒刑。最新现场消息，纽约时间4月7日中午12点50分左右，周立波代理律师莫虎现身，面对媒体发问，只字不语",
+                    time: "2017-4-8",
+                    image: "sj_icon_18.png"
+                },
+                {
+                    title: "周立波案延迟至6月开庭 他反复强调多说中国人好事",
+                    content: "【周立波持枪持毒案开审，律师到庭后一言不发】周立波持枪持毒案在美国正式开庭审理，如果罪名成立，或将面临2年以上徒刑。最新现场消息，纽约时间4月7日中午12点50分左右，周立波代理律师莫虎现身，面对媒体发问，只字不语",
+                    time: "2017-4-8",
+                    image: "sj_icon_17.png"
+                },
+                {
+                    title: "周立波案延迟至6月开庭 他反复强调多说中国人好事",
+                    content: "【周立波持枪持毒案开审，律师到庭后一言不发】周立波持枪持毒案在美国正式开庭审理，如果罪名成立，或将面临2年以上徒刑。最新现场消息，纽约时间4月7日中午12点50分左右，周立波代理律师莫虎现身，面对媒体发问，只字不语",
+                    time: "2017-4-8",
+                    image: "sj_icon_16.png"
+                },
+                {
+                    title: "周立波案延迟至6月开庭 他反复强调多说中国人好事",
+                    content: "【周立波持枪持毒案开审，律师到庭后一言不发】周立波持枪持毒案在美国正式开庭审理，如果罪名成立，或将面临2年以上徒刑。最新现场消息，纽约时间4月7日中午12点50分左右，周立波代理律师莫虎现身，面对媒体发问，只字不语",
+                    time: "2017-4-8",
+                    image: "sj_icon_15.png"
+                },
+                {
+                    title: "周立波案延迟至6月开庭 他反复强调多说中国人好事",
+                    content: "【周立波持枪持毒案开审，律师到庭后一言不发】周立波持枪持毒案在美国正式开庭审理，如果罪名成立，或将面临2年以上徒刑。最新现场消息，纽约时间4月7日中午12点50分左右，周立波代理律师莫虎现身，面对媒体发问，只字不语",
+                    time: "2017-4-8",
+                    image: "sj_icon_14.png"
+                },
+                {
+                    title: "周立波案延迟至6月开庭 他反复强调多说中国人好事",
+                    content: "【周立波持枪持毒案开审，律师到庭后一言不发】周立波持枪持毒案在美国正式开庭审理，如果罪名成立，或将面临2年以上徒刑。最新现场消息，纽约时间4月7日中午12点50分左右，周立波代理律师莫虎现身，面对媒体发问，只字不语",
+                    time: "2017-4-8",
+                    image: "sj_icon_13.png"
+                },
+                {
+                    title: "周立波案延迟至6月开庭 他反复强调多说中国人好事",
+                    content: "【周立波持枪持毒案开审，律师到庭后一言不发】周立波持枪持毒案在美国正式开庭审理，如果罪名成立，或将面临2年以上徒刑。最新现场消息，纽约时间4月7日中午12点50分左右，周立波代理律师莫虎现身，面对媒体发问，只字不语",
+                    time: "2017-4-8",
+                    image: "sj_icon_12.png"
+                }
+            ]
+        }
+    }
+
     render() {
+        const item = function (item) {
+            return (
+                <div className="competition-list-item">
+                    <div><img src={"../../../../image/article-icon/" + item.image} alt="little image"/></div>
+                    <div>
+                        <h3 className="competition-h3">{item.title}</h3>
+                        <p className="competition-p">{item.content}</p>
+                        发布时间：
+                        <time className="competition-time">{item.time}</time>
+                    </div>
+                </div>
+            )
+        };
+
         return (
-
-            <div className="main-text">
-                <div className="text-img">
-                    <div className="competition-column-list"><img className="sp-img"
-                                                                  src="image/article-icon/sj_icon_18.png"/>
-
-                        <div>
-                            <a className="competition-list-a" src="#">我是题目哈哈哈</a>
-                            <p className="competition-p">
-                                我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列.
-                            </p>
-
-                            <div className="competition-time">发布时间:<span>2017-03-15</span></div>
-                        </div>
-                    </div>
-                    <div className="competition-column-list"><img className="sp-img"
-                                                                  src="image/article-icon/sj_icon_17.png"/>
-                        <div>
-                            <a className="competition-list-a" src="#">我是题目哈哈哈</a>
-                            <p className="competition-p">
-                               我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列.
-                            </p>
-
-                            <div className="competition-time">发布时间:<span>2017-03-15</span></div>
-                        </div>
-                    </div>
-                    <div className="competition-column-list"><img className="sp-img"
-                                                                  src="image/article-icon/sj_icon_16.png"/>
-                        <div>
-                            <a className="competition-list-a" src="#">我是题目哈哈哈</a>
-                            <p className="competition-p">
-                                我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列.
-                            </p>
-
-                            <div className="competition-time">发布时间:<span>2017-03-15</span></div>
-                        </div>
-                    </div>
-                    <div className="competition-column-list"><img className="sp-img"
-                                                                  src="image/article-icon/sj_icon_15.png"/>
-                        <div>
-                            <a className="competition-list-a" src="#">我是题目哈哈哈</a>
-                            <p className="competition-p">
-                                我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列.
-                            </p>
-
-                            <div className="competition-time">发布时间:<span>2017-03-15</span></div>
-                        </div>
-                    </div>
-                    <div className="competition-column-list"><img className="sp-img"
-                                                                  src="image/article-icon/sj_icon_14.png"/>
-                        <div>
-                            <a className="competition-list-a" src="#">我是题目哈哈哈</a>
-                            <p className="competition-p">
-                                我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列,我其实是一个很长很长很长很长的列.
-                            </p>
-
-                            <div className="competition-time">发布时间:<span>2017-03-15</span></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="next-page">
-                    <div className="competition-row-list">首页</div>
-                    <div className="competition-row-list">1</div>
-                    <div className="competition-row-list">2</div>
-                    <div className="competition-row-list">3</div>
-                    <div className="competition-row-list">4</div>
-                    <div className="competition-row-list">5</div>
-                    <div className="competition-row-list">下一页</div>
-                    <div className="competition-row-list">末页</div>
-                    <div className="competition-row-list competition-row-list-last">共<span>10</span>页<span>46</span>条</div>
-                </div>
-            </div>
+            <Pagination list={this.state.allItems} item={item} listStyle="competition-list" pageSize="5"/>
         )
     }
 }

@@ -61,7 +61,7 @@ export default class InnovationCommunities extends Component {
     };
 
     return (
-            <Pagination list={this.state.allItems} item={item} listStyle="elegant-list"  pageSize="6" />
+        <Pagination list={this.state.allItems} item={item} listStyle="elegant-list"  pageSize="6" />
     )
   }
 }
