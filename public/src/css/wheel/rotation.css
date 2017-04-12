@@ -5,13 +5,22 @@
 
 .rotationImage{
     float: left;
+<<<<<<< HEAD
     margin: 20px 3px;
+=======
+    margin: 20px 20px;
+>>>>>>> upstream/master
     box-shadow: 3px;
 }
 
 .rotationImage > a > img{
+<<<<<<< HEAD
     width: 162px;
     height: 102px;
+=======
+    width: 250px;
+    height: 200px;
+>>>>>>> upstream/master
     border: 2px solid #F2F2F2;
 }
 

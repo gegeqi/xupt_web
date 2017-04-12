@@ -1,7 +1,10 @@
 .allWallWrap{
     background-image: url(../../../image/honorWall.jpg);
+<<<<<<< HEAD
     background-repeat: no-repeat;
     background-size:100% 100%;
+=======
+>>>>>>> upstream/master
     overflow: hidden;
     zoom: 1;
     margin:20px 50px;
@@ -11,7 +14,11 @@
 .wallTile{
     width: 5%;
     height:100%;
+<<<<<<< HEAD
     font-family: "AR PL UKai CN";
+=======
+    font-family: '楷体';
+>>>>>>> upstream/master
     font-size: 5rem;
     position: absolute;
     left:5%;
