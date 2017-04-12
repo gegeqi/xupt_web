@@ -58,7 +58,7 @@ class Frame_header extends Component {
                                     <li>创业技能交流专区</li>
                                 </ul>
                             </li>
-                            <li role="presentation"><Link to="#" className="header-link">文件下载</Link>
+                            <li role="presentation"><Link to="/fileDownload" className="header-link">文件下载</Link>
                             </li>
                             <li role="presentation"><Link to="#" className="header-link">个人中心</Link>
                             </li>
