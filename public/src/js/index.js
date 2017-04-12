@@ -22,6 +22,7 @@ import PioneerCenter from "./components/ElegantShow/PioneerCenter";
 import StarTeacher from "./components/ElegantShow/StarTeacher";
 import StudentMien from "./components/ElegantShow/StudentMien";
 import Erya from "./components/onlineclass/Erya";
+import FileDownload from "./components/fileDownload/FileDownload"
 
 render(
     <Router history={browserHistory}>
@@ -49,7 +50,7 @@ render(
                 <Route path='/elegantShow/starTeacher' component={StarTeacher}/>
                 <Route path='/elegantShow/studentMien' component={StudentMien}/>
             </Route>
-
+            <Route path="/fileDownload" component={FileDownload} />
         </Route>
     </Router>,
     document.getElementById('react-root')
